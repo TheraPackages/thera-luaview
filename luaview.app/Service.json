@@ -1,0 +1,329 @@
+{
+    "JUSDKItemService": {
+        "singleton": false,
+        "actions": {
+            "getItemByIds": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction" : "JUSDKItemService$getItemByIds:"
+                }
+            },
+            "getDetailItemByJuId": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction" : "JUSDKItemService$getDetailItemByJuId:"
+                }
+            },
+            "getItemJuAndTaobaoDetailByIdOrJuId": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction" : "JUSDKItemService$getItemJuAndTaobaoDetailByIdOrJuId:"
+                }
+            },
+            "getItemDetailFromMTOP": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction" : "JUSDKItemService$getItemDetailFromMTOP:"
+                }
+            }
+            
+        }
+    },
+    "JUSDKOptionService": {
+        "singleton": false,
+        "actions": {
+            "getOption": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction" : "JUSDKOptionService$getOption:"
+                }
+            },
+            "getOptionItem": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction" : "JUSDKOptionService$getOptionItem:"
+                }
+            }
+        }
+    },
+    "JUSDKMiscDataService": {
+        "singleton": false,
+        "actions": {
+            "getAppMiscData": {
+                    "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                    "internal": {
+                        "referenceNames" : "Timer|Debugging|UserTracker",
+                        "callbackAction" : "JUSDKMiscDataService$getAppMiscData:"
+                    }
+            }
+        }
+    },
+    "JUSDKAddressService": {
+        "singleton": false,
+        "actions": {
+            "createAddress": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction" : "JUSDKAddressService$createAddress:"
+                }
+            },
+            "deleteAddress": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKAddressService$deleteAddress:"
+                }
+            },
+            "getAddressList": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKAddressService$getAddressList:"
+                }
+            },
+            "modifyAddress": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKAddressService$modifyAddress:"
+                }
+            }
+        }
+    },
+    "JUSDKTradeService":{
+        "singleton": false,
+        "actions": {
+            "getJuTradeList": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKTradeService$getJuTradeList:"
+                }
+            },
+            "getJuTradeDetail": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKTradeService$getJuTradeDetail:"
+                }
+            },
+            "getTradeFullInfo": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKTradeService$getTradeFullInfo:"
+                }
+            }
+        }
+    },
+    "JUSDKLogisticsService":{
+        "singleton": false,
+        "actions": {
+            "getLogisticsTrace": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker|ProgressHUD",
+                    "callbackAction": "JUSDKLogisticsService$getLogisticsTrace:"
+                }
+            }
+        }
+    },
+    "JUSDKLoginService": {
+        "singleton": true,
+        "actions": {
+            "ssologin": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction": "JUSDKLoginService$ssoAlipayLogin:"
+                }
+            },
+            "login": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction": "JUSDKLoginService$loginWithUserNickAndPassword:"
+                }
+            },
+            "autologin": {
+                "mapname": "JUSDKTemplateWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "Timer|Debugging|UserTracker",
+                    "callbackAction": "JUSDKLoginService$loginWithToken:"
+                }
+            }
+        }
+    },
+    "JUSDKTemplateWorkflows": {
+        "actions": {
+            "DefaultStackWorkflow": {
+                "mapname": "defaultStackWorkflow:",
+                "internal": {
+                    "workflowStack" : [
+                        {
+                            "name" : "Timer",
+                            "action" : "JUSDKTemplateWorkflows$Timer"
+                        },
+                        {
+                            "name" : "Debugging",
+                            "action" : "JUSDKTemplateWorkflows$Debugging"
+                        },
+                        {
+                            "name" : "UserTracker",
+                            "action" : "JUSDKTemplateWorkflows$UserTracker"
+                        },
+                        {
+                            "name" : "Auth",
+                            "action" : "JUSDKTemplateWorkflows$Auth",
+                            "shouldCheckReturnValue" : 1
+                        },
+                        {
+                            "name" : "CheckCode",
+                            "action" : "JUSDKTemplateWorkflows$CheckCode",
+                            "shouldCheckReturnValue" : 1
+                        },
+                        {
+                            "name" : "ProgressHUD",
+                            "action" : "JUSDKTemplateWorkflows$ProgressHUD"
+                        }
+                    ]
+                }
+            },
+            
+            "Auth": {
+                "mapname": "authWorkflow:",
+                "internal": {}
+            },
+            
+            "UserTracker": {
+                "mapname": "userTrackerWorkflow:",
+                "internal": {}
+            },
+            
+            "Timer": {
+                "mapname": "timerWorkflow:",
+                "internal": {}
+            },
+            
+            "Debugging": {
+                "mapname": "debuggingWorkflow:",
+                "internal": {}
+            },
+            
+            "ProgressHUD": {
+                "mapname": "progressHUDWorkflow:",
+                "internal": {}
+            },
+            
+            "CheckCode": {
+                "mapname": "checkCodeWorkflow:",
+                "internal": {}
+            }
+        }
+    },
+    "JUSDKAccountCheckFlows": {
+        "mapname": "JUSDKAccountCheckFlows",
+        "actions": {
+            "AccountCheckFlow": {
+                "mapname": "accountCheckFlow:"
+            },
+            "checkAccountBefore": {
+                "mapname": "checkAccountBefore:"
+            }
+        }
+    },
+    "JUSDKCheckCodeFlows": {
+        "singleton": false,
+        "mapname": "JUSDKCheckCodeFlows",
+        "actions": {
+            "CheckCodeFlow": {
+                "mapname": "checkCodeFlow:",
+                "internal": {}
+            }
+        }
+    },
+    
+    "JUSDKArtifactLoginService":{
+        "singleton": false,
+        "actions": {
+            "login": {
+                "mapname": "JUSDKArtifactWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "UserTracker",
+                    "callbackAction": "JUSDKArtifactLoginService$login:"
+                }
+            },
+            "userinfo": {
+                "mapname": "JUSDKArtifactWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "UserTracker|Auth",
+                    "callbackAction": "JUSDKArtifactLoginService$userinfo:"
+                }
+            }
+        }
+    },
+    
+    "JUSDKArtifactLotteryService":{
+        "singleton": false,
+        "actions": {
+            "join": {
+                "mapname": "JUSDKArtifactWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "UserTracker|Auth",
+                    "callbackAction": "JUSDKArtifactLotteryService$join:"
+                }
+            },
+            "awardList": {
+                "mapname": "JUSDKArtifactWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "UserTracker|Auth",
+                    "callbackAction": "JUSDKArtifactLotteryService$awardList:"
+                }
+            },
+            "lottery": {
+                "mapname": "JUSDKArtifactWorkflows$DefaultStackWorkflow",
+                "internal": {
+                    "referenceNames" : "UserTracker|Auth",
+                    "callbackAction": "JUSDKArtifactLotteryService$lottery:"
+                }
+            }
+        }
+    },
+    
+    "JUSDKArtifactWorkflows": {
+        "actions": {
+            "DefaultStackWorkflow": {
+                "mapname": "defaultStackWorkflow:",
+                "internal": {
+                    "workflowStack" : [
+                                       {
+                                       "name" : "UserTracker",
+                                       "action" : "JUSDKArtifactWorkflows$UserTracker"
+                                       },
+                                       {
+                                       "name" : "Auth",
+                                       "action" : "JUSDKArtifactWorkflows$Auth"
+                                       }
+                                       ]
+                }
+            },
+            
+            "Auth": {
+                "mapname": "authWorkflow:",
+                "internal": {}
+            },
+            
+            "UserTracker": {
+                "mapname": "userTrackerWorkflow:",
+                "internal": {}
+            }
+        }
+    }
+}

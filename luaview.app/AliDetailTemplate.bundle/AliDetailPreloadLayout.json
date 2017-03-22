@@ -1,0 +1,28 @@
+{
+  "homePage": [
+    {
+      "ID": "navi_bar",
+      "key": "navi_bar"
+    },
+    {
+      "ID": "pic_gallery",
+      "key": "pic_gallery"
+    },
+    {
+      "ID": "main_layout",
+      "key": "main_layout",
+      "children": [
+        {
+          "key": "title_share"
+        },
+        {
+          "key": "price"
+        }
+      ]
+    },
+    {
+      "ID": "bottom_bar",
+      "key": "bottom_bar"
+    }
+  ]
+}

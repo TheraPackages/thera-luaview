@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+option java_package = "";
+option java_outer_classname = "TBLiveMessage";
+
+//
+// 上下行PowerMsg消息定义
+// 步骤如下：
+// 0. 描述：Protocol buffers are a language-neutral, platform-neutral
+//  extensible mechanism for serializing structured data.
+// 1. 下载：https://github.com/google/protobuf/releases
+// 2. ./protoc --objc_out=. TBLiveMessage.proto
+// 3. 拷贝生成的文件，到TBLive工程，提交即可
+//
+
+// 消息类型定义
+enum TBLiveMessageSubType {
+    TBLiveMessageSubType_None = 0;
+    TBLiveMessageSubType_JoinNotify = 10005;
+    TBLiveMessageSubType_ShareGoodsList = 10007;
+    TBLiveMessageSubType_CloseGoodsShowCase = 10008;
+    TBLiveMessageSubType_TradeShow = 10009;
+}
+
+// 兼容老版本发送单个宝贝
+message TBLiveShareMessage {
+    string content = 1;
+    string title = 2;  
+    string picUrl = 3;
+    string actionUrl = 4;
+    string shareType = 5;
+    string shareId = 6;
+    string price = 7;
+}
+
+// 主播端发送多个宝贝
+message TBLiveMessageShareGoodsListWithProtobuf {
+    repeated TBLiveShareMessage goodslist = 1;
+}
+
+// 主播端下发指令关闭宝贝橱窗
+message TBLiveMessageCloseGoodsShowCaseWithProtobuf {
+    int32 unused = 1;
+}
+
+// 详情或者加购等购买氛围透出消息
+message TBLiveMessageTradeShowWithProtobuf {
+    int32 type = 1;
+    string nick = 2;
+}
+
+// 进出群消息
+message TBLiveMessageJoinNotifyWithProtobuf {
+    int32 totalCount = 1;
+    int32 onlineCount = 2;
+    map<string, string> addUsers = 3;
+}
+
+message TBLiveBizCount {
+    int64 value = 1;
+}

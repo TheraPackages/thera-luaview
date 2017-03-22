@@ -1,0 +1,57 @@
+define('@weex-component/11c8597af44c267fe216bf2fe1c38224', function(require, exports, module) {
+
+    ;
+
+    ;
+    module.exports.style = {
+        "container": {
+            "left": 0,
+            "top": 0,
+            "flexDirection": "row"
+        },
+        "thumb": {
+            "width": 100,
+            "height": 100
+        },
+        "title": {
+            "width": 150,
+            "height": 100,
+            "lines": 2,
+            "color": "#ff0000",
+            "fontSize": 16,
+            "backgroundColor": "#eeeeee"
+        }
+    }
+
+    ;
+    module.exports.template = {
+        "type": "container",
+        "classList": [
+            "container"
+        ],
+        "children": [{
+            "type": "image",
+            "classList": [
+                "thumb"
+            ],
+            "attr": {
+                "src": "http://gw.alicdn.com/tfscom/TB1OMfAJFXXXXbfXXXXqVMCNVXX-400-400.jpg"
+            }
+        }, {
+            "type": "text",
+            "classList": [
+                "title"
+            ],
+            "attr": {
+                "value": "一个超赞的宝贝标题"
+            }
+        }]
+    }
+
+    ;
+})
+
+// require module
+bootstrap('@weex-component/11c8597af44c267fe216bf2fe1c38224', {
+    "transformerVersion": "0.1.5"
+})

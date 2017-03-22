@@ -1,0 +1,126 @@
+{
+    "homePage": [
+                 {
+                 "ID": "navi_bar",
+                 "key": "navi_bar"
+                 },
+                 {
+                 "ID": "pic_gallery",
+                 "key": "pic_gallery"
+                 },
+                 {
+                 "ID": "main_layout",
+                 "key": "main_layout",
+                 "children": [
+                              {
+                              "key": "image_bar"
+                              },
+                              {
+                              "key": "jhs_price"
+                              },
+                              {
+                              "key": "jhs_title"
+                              },
+                              {
+                              "key": "tip",
+                              "ruleId": "priceTip"
+                              },
+                              {
+                              "key": "tip",
+                              "ruleId": "presale"
+                              },
+                              {
+                              "key": "tip",
+                              "ruleId": "postTime"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "tipDivision"
+                              },
+                              {
+                              "key": "jhs_zhongren"
+                              },
+                              {
+                              "key": "jhs_tag"
+                              },
+                              {
+                              "key": "division"
+                              },
+                              {
+                              "key": "jhs_marketing"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "singleCenterTheme"
+                              },
+                              {
+                              "key": "coupon_info",
+                              "ruleId": "taobao"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "singleCenterTheme"
+                              },
+                              {
+                              "key": "promotion_info",
+                              "ruleId": "taobao"
+                              },
+                             {
+                              "key": "division"
+                              },
+                              {
+                              "key": "sku"
+                              },
+                              {
+                              "key": "o2o"
+                              },
+                              {
+                              "key": "division"
+                              },
+                              {
+                              "key": "rate_header"
+                              },
+                              {
+                              "key": "rate_tags"
+                              },
+                              {
+                              "key": "rate_single"
+                              },
+                              {
+                              "key": "button_container",
+                              "ruleId": "rateBottom"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "singleCenter"
+                              },
+                              {
+                              "key": "division"
+                              },
+                              {
+                              "key": "shop_header",
+                              "ruleId": "jhs_default"
+                              },
+                              {
+                              "key": "jhs_shop_info"
+                              },
+                              {
+                              "key": "button_container",
+                              "ruleId": "jhs_shopBottom"
+                              },
+                              {
+                              "key": "combo"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "openProductDetail"
+                              }
+                              ]
+                 },
+                 {
+                 "ID": "bottom_bar",
+                 "key": "bottom_bar",
+                 "ruleId":"jhs_default"
+                 }
+                 ]
+}

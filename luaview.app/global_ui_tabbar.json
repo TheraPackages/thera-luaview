@@ -1,0 +1,48 @@
+{
+    "tabbarArray": [
+                    {
+                    "selectedIcon": "tabbar_today_selected",
+                    "title": "精选",
+                    "icon": "tabbar_today",
+                    "url": "jhs://go/ju/today_home",
+                    "selected": true,
+                    "trackParams": {
+                    "_trackId": "JuJRT",
+                    "_trackName": "Tabbar精选"
+                    }
+                    },
+                    {
+                    "selectedIcon": "tabbar_category_selected",
+                    "title": "分类",
+                    "icon": "tabbar_category",
+                    "url": "jhs://go/ju/category",
+                    "selected": false,
+                    "trackParams": {
+                    "_trackId": "JuJFL",
+                    "_trackName": "Tabbars分类"
+                    }
+                    },
+                    {
+                    "selectedIcon": "tabbar_discovery_selected",
+                    "title": "发现",
+                    "icon": "tabbar_discovery",
+                    "url": "jhs://go/ju/luaview?package=faxian&hideSearchBar=true",
+                    "selected": false,
+                    "trackParams": {
+                    "_trackId": "JuFX",
+                    "_trackName": "Tabbar发现"
+                    }
+                    },
+                    {
+                    "selectedIcon": "tabbar_my_selected",
+                    "title": "我的",
+                    "icon": "tabbar_my",
+                    "url": "jhs://go/ju/my_profile",
+                    "selected": false,
+                    "trackParams": {
+                    "_trackId": "JuWD",
+                    "_trackName": "Tabbar我的"
+                    }
+                    }
+                    ]
+}

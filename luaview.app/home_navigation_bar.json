@@ -1,0 +1,32 @@
+{
+    "v5.8.0":
+    {
+        "leftButtonModel": {
+            "title": "功能栏",
+            "actionUrl": "jhs://go/ju/scanning_code",
+            "buttonIconUrl": "nav_left_icon",
+            "isLocalConfig" : true,
+            "icons": [
+                      {
+                      "title": "二维码",
+                      "actionUrl": "jhs://go/ju/scanning_code",
+                      "buttonIconUrl": "nav_scan_icon",
+                      "isLocalConfig" : true
+                      },
+                      {
+                      "title": "语音",
+                      "actionUrl": "jhs://go/ju/voice_recognize",
+                      "buttonIconUrl": "nav_voice_icon",
+                      "isLocalConfig" : true
+                      }
+                      ]
+        },
+        "rightButtonModel": {
+            "title": "福利社",
+            "actionUrl": "https://ju.taobao.com/m/jusp/nv/fulishe/mtp.htm",
+            "buttonIconUrl": "nav_right_icon",
+            "rightGuideIconUrl" : "nav_fulishe",
+            "isLocalConfig" : true
+        }
+    }
+}

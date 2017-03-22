@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bizName</key>
+	<string>msoa.taobao.detail</string>
+	<key>services</key>
+	<array>
+		<dict>
+			<key>serviceId</key>
+			<string>msoa.taobao.detail.requestDetailModel</string>
+			<key>version</key>
+			<string>1.0</string>
+			<key>provider</key>
+			<dict>
+				<key>className</key>
+				<string>AliDetailDataEngine</string>
+				<key>func</key>
+				<string>loadDetailWithItemId:queryParams:successHandler:failureHandler:</string>
+				<key>funcType</key>
+				<string>object</string>
+			</dict>
+			<key>params</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>itemId</string>
+					<key>type</key>
+					<string>NSString</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>queryParams</string>
+					<key>type</key>
+					<string>NSDictionary</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>successHandler</string>
+					<key>type</key>
+					<string>MSOAServiceSuccessHandler</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>failureHandler</string>
+					<key>type</key>
+					<string>MSOAServiceFailureHandler</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

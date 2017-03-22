@@ -1,0 +1,1353 @@
+{
+    "cidToSidMap": {
+        "entrance_promotion": {
+            "promotionEntranceLg": "entranceLg28",
+            "promotionEntrance": "componentBgLightGray",
+            "promotionEntranceTlt": "entranceTitlePromotion"
+        },
+        "entrance_coupon": {
+            "couponEntranceLg": "entranceLg14",
+            "couponEntrance": "brandComponentBg",
+            "couponEntranceTlt": "entranceTitleInfo",
+            "couponEntranceSubTlt": "entranceTitleInfo",
+            "couponEntranceIcon": "entranceIconMore"
+        },
+        "entrance_couponAndPromotion": {
+            "couponAndPromotionEntrance": "couponEntrance",
+            "couponAndPromotionEntranceIcon": "entranceIconMore",
+            "couponAndPromotionEntranceLg": "brandEntranceLogoTwo",
+            "couponAndPromotionEntranceTlt": "entranceTitleFetchCoupon"
+        },
+        "entrance_questionAll": {
+            "questionAllEntranceLg": "entranceLg20",
+            "questionAllEntrance": "componentBgWhite",
+            "questionAllEntranceTlt": "entranceTitleEntry",
+            "questionAllEntranceIcon": "entranceIconMore"
+        },
+        "entrance_questionAllAsk1": {
+            "questionAllAsk1EntranceLg": "entranceLg14",
+            "questionAllAsk1Entrance": "componentBgWhitePdBtm10",
+            "questionAllAsk1EntranceTlt": "entranceTitleQuestionAll",
+            "questionAllAsk1EntranceSubTlt": "entranceSubTitle12",
+            "questionAllAsk1EntranceIcon": "entranceIconMore"
+        },
+        "entrance_questionAllAsk2": {
+            "questionAllAsk2EntranceLg": "entranceLg14",
+            "questionAllAsk2Entrance": "componentBgWhitePdBtm15",
+            "questionAllAsk2EntranceTlt": "entranceTitleQuestionAll",
+            "questionAllAsk2EntranceSubTlt": "entranceSubTitle12",
+            "questionAllAsk2EntranceIcon": "entranceIconMore"
+        },
+        "entrance_inter": {
+            "interEntranceLg": "entranceLg20",
+            "interEntrance": "entranceInter",
+            "interEntranceTlt": "entranceTitleInter"
+        },
+        "entrance_sameDesign": {
+            "sameDesignEntranceLg": "entranceLg20",
+            "sameDesignEntrance": "entranceInter",
+            "sameDesignEntranceTlt": "entranceTitleSameDesign"
+        },
+        "entrance_brandinfo": {
+            "brandinfoEntranceLg": "entranceLg21",
+            "brandinfoEntranceTlt": "entranceTitleBrandinfo",
+            "brandinfoEntrance": "brandComponentBg"
+        },
+        "entrance_fetchCoupon": {
+            "fetchCouponEntranceLg": "brandEntranceLogo",
+            "fetchCouponEntrance": "couponEntrance",
+            "fetchCouponEntranceTlt": "entranceTitleFetchCoupon",
+            "fetchCouponEntranceSubTlt": "entranceSubTitleDouble11Coupon",
+            "fetchCouponEntranceIcon": "entranceIconMore"
+        },
+        "entrance_double11Coupon": {
+            "double11CouponEntranceLg": "entranceLg14",
+            "double11CouponEntrance": "couponEntrance",
+            "double11CouponEntranceTlt": "entranceTitleFetchCoupon",
+            "double11CouponEntranceIcon": "entranceIconMore",
+            "double11CouponEntranceSubTlt": "entranceSubTitleDouble11Coupon"
+        },
+        "entrance_interSizingChart": {
+            "interSizingChartEntrance": "entranceInterSizingChart",
+            "interSizingChartEntranceTlt": "entranceTitleInterSizingChart",
+            "interSizingChartEntranceIcon": "entranceIconMore"
+        },
+        "entrance_cainiao": {
+            "cainiaoEntranceLg": "entranceLg14",
+            "cainiaoEntrance": "componentBgWhite",
+            "cainiaoEntranceTlt": "entranceCainiao",
+            "cainiaoEntranceIcon": "entranceIconMore"
+        },
+        "tip": {
+            "depositTipText": "tipTextDeposit",
+            "jyjTipText": "tipTextJyj",
+            "priceTipText": "tipTextYellow",
+            "TipText": "tipTextDefault"
+        },
+        "bottom_bar_icon": {
+            "shopSMBtmBarIcon": "bottomBarShopSM",
+            "shopSMBtmBarIconIcon": "bottomBarShopIcon",
+            "shopSMBtmBarIconText": "bottomBarIconText",
+            "wwBtmBarIconIcon": "bottomBarWWIcon",
+            "shopBtmBarIconIcon": "bottomBarShopIcon",
+            "wwBtmBarIconText": "bottomBarIconText",
+            "shopBtmBarIconText": "bottomBarIconText"
+        },
+        "bottom_bar_remind": {
+            "BtmBarRmd": "bottomBarRmdJhsNormal"
+        },
+        "button_container": {
+            "BtnContainer": "buttonContainer"
+        },
+        "sys_button": {
+            "rateSysBtn": "buttonEntry",
+            "shopSysBtn": "buttonEntry",
+            "menuSysBtn": "buttonMenu",
+            "cartSysBtn": "buttonAddCart",
+            "buySysBtn": "buttonBuyNow",
+            "buyJhs0SysBtn": "buttonBuyJHS",
+            "buyJhs1SysBtn": "buttonBuyJHS",
+            "buyJhs2SysBtn": "buttonBuyJHS",
+            "buyJhs3SysBtn": "buttonBuyJHSBig"
+        },
+        "division": {
+            "themeDiv": "brandComponentBg",
+            "themeDivLine": "brandLine",
+            "themeline": "lightGrayLine",
+            "Div": "defaultDivision",
+            "textDiv": "textDivision",
+            "DivLine": "divisionLine",
+            "tipDiv": "divisionTipGap",
+            "whiteBgDiv": "whiteBgDivision",
+            "whiteBgDivLine": "divisionLine"
+        },
+        "rights": {
+            "Rights": "brandComponentBg",
+            "RightsIcon": "brandTxtFt",
+            "RightsText": "brandTxtRightFt"
+        },
+        "shopPromotion": {
+            "ShopPromot": "brandComponentBg",
+            "ShopPromtLogo": "brandEntranceLogo"
+        },
+        "image_bar": {
+            "ImageBar": "imageBarBg"
+        },
+        "price_jhs": {
+            "JhsPriceBg": "JhsPriceItem",
+            "JhsPriceCountDownText": "JhsPriceCountDownText",
+            "jhsOnSellJhsPriceBg": "jhsOnSellJhsPriceItem",
+            "jhsOnSellJhsPriceCountDownText": "JhsPriceCountDownText",
+            "ladyGoNotStartJhsPriceBg": "ladyGoNotStartJhsPriceItem",
+            "ladyGoNotStartJhsPriceCountDownBg": "ladyGoNotStartJhsPriceCountDownItem",
+            "ladyGoNotStartJhsPriceCountDownText": "ladyGoJhsPriceCountDownText",
+            "ladyGoStartedJhsPriceBg": "ladyGoStartedJhsPriceItem",
+            "ladyGoStartedJhsPriceCountDownText": "ladyGoJhsPriceCountDownText",
+            "ladyGoStartedJhsPriceCountDownBg": "ladyGoStartedJhsPriceCountDownItem"
+        }
+    },
+    "styleCollection": {
+        "groups": [
+                   "theme1",
+                   "theme2",
+                   "theme3",
+                   "theme4",
+                   "theme5",
+                   "theme6",
+                   "theme7",
+                   "theme8",
+                   "theme9",
+                   "theme10",
+                   "theme11",
+                   "theme12",
+                   "theme13",
+                   "theme14",
+                   "theme15",
+                   "theme16",
+                   "theme18",
+                   "theme19"
+                   ],
+        "theme1": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#ff5000"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fafafa"
+                },
+                "brandLine": {
+                    "bgClr": "#e7e7e7"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#ff5000",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fafafa",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#ff5000",
+                    "bgClr": "#fafafa",
+                    "borderColor": "#ff5000",
+                    "txtClr": "#ff5000"
+                }
+            }
+        },
+        "theme2": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#f72862"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fffcfc"
+                },
+                "brandLine": {
+                    "bgClr": "#fedee7"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "20",
+                    "cnrRds": "2",
+                    "bgClr": "#f72862",
+                    "txtClr": "#ffffff"
+                },
+                "price_jhs": {
+                    "JhsPriceItem": {
+                        "bgClr": "#26a96d"
+                    },
+                    "JhsPriceCountDownText": {
+                        "txtClr": "#f91546"
+                    },
+                    "jhsOnSellJhsPriceItem": {
+                        "bgClr": "#f61d4b"
+                    }
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fffcfc",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#f72862",
+                    "bgClr": "#fffcfc",
+                    "borderColor": "#f72862",
+                    "txtClr": "#f72862"
+                }
+            }
+        },
+        "theme3": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#fc353a"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fff7f7"
+                },
+                "brandLine": {
+                    "bgClr": "#ffdfe0"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#fc353a",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fff7f7",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#fc353a",
+                    "bgClr": "#fff7f7",
+                    "borderColor": "#fc353a",
+                    "txtClr": "#fc353a"
+                }
+            }
+        },
+        "theme4": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#00a2c1"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#f2fafc"
+                },
+                "brandLine": {
+                    "bgClr": "#d7f0f6"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#00a2c1",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#f2fafc",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#00a2c1",
+                    "bgClr": "#f2fafc",
+                    "borderColor": "#00a2c1",
+                    "txtClr": "#00a2c1"
+                }
+            }
+        },
+        "theme5": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#6b4ab5"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#f8f7fb"
+                },
+                "brandLine": {
+                    "bgClr": "#e8e3f3"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#6b4ab5",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#f8f7fb",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#6b4ab5",
+                    "bgClr": "#f8f7fb",
+                    "borderColor": "#6b4ab5",
+                    "txtClr": "#6b4ab5"
+                }
+            }
+        },
+        "theme6": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#3ea3ff"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#f7fcff"
+                },
+                "brandLine": {
+                    "bgClr": "#e1f0ff"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#3ea3ff",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#f7fcff",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#3ea3ff",
+                    "bgClr": "#f7fcff",
+                    "borderColor": "#3ea3ff",
+                    "txtClr": "#3ea3ff"
+                }
+            }
+        },
+        "theme7": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#ff9900"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fffaf2"
+                },
+                "brandLine": {
+                    "bgClr": "#ffefd7"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#ff9900",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fffaf2",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#ff9900",
+                    "bgClr": "#fffaf2",
+                    "borderColor": "#ff9900",
+                    "txtClr": "#ff9900"
+                }
+            }
+        },
+        "theme8": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#dd2727"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fefbfb"
+                },
+                "brandLine": {
+                    "bgClr": "#fadede"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#dd2727",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fefbfb",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#dd2727",
+                    "bgClr": "#fefbfb",
+                    "borderColor": "#dd2727",
+                    "txtClr": "#dd2727"
+                }
+            }
+        },
+        "theme9": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#7a45e5"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fcfbff"
+                },
+                "brandLine": {
+                    "bgClr": "#eae2fb"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#7a45e5",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fcfbff",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#7a45e5",
+                    "bgClr": "#fcfbff",
+                    "borderColor": "#7a45e5",
+                    "txtClr": "#7a45e5"
+                }
+            }
+        },
+        "theme10": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#dd2727"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fafafa"
+                },
+                "brandLine": {
+                    "bgClr": "#dedede"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#dd2727",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#f8f8f8",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#dd2727",
+                    "bgClr": "#f8f8f8",
+                    "borderColor": "#dd2727",
+                    "txtClr": "#dd2727"
+                }
+            }
+        },
+        "theme11": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#fabe00"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fffdf6"
+                },
+                "brandLine": {
+                    "bgClr": "#fef4d4"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#fabe00",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fffdf6",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#fabe00",
+                    "bgClr": "#fffdf6",
+                    "borderColor": "#fabe00",
+                    "txtClr": "#fabe00"
+                }
+            }
+        },
+        "theme12": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#00bcd6"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#f7fdfe"
+                },
+                "brandLine": {
+                    "bgClr": "#d5f4f9"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#00bcd6",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#f7fdfe",
+                    "ht": "42"
+                }
+            },
+            "price_jhs": {
+                "JhsPriceItem": {
+                    "bgClr": "#0AC268"
+                },
+                "JhsPriceCountDownText": {
+                    "txtClr": "#e91e63"
+                },
+                "jhsOnSellJhsPriceItem": {
+                    "bgClr": "#00bcd6"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#00bcd6",
+                    "bgClr": "#f7fdfe",
+                    "borderColor": "#00bcd6",
+                    "txtClr": "#00bcd6"
+                }
+            }
+        },
+        "theme13": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#ff266b"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fffcfc"
+                },
+                "brandLine": {
+                    "bgClr": "#ffdbe7"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#ff266b",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fffcfc",
+                    "ht": "42"
+                }
+            },
+            "price_jhs": {
+                "JhsPriceItem": {
+                    "bgClr": "#0AC268"
+                },
+                "JhsPriceCountDownText": {
+                    "txtClr": "#ffffff"
+                },
+                "jhsOnSellJhsPriceItem": {
+                    "bgClr": "#ff266b"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#ff266b",
+                    "bgClr": "#fffcfc",
+                    "borderColor": "#ff266b",
+                    "txtClr": "#ff266b"
+                }
+            }
+        },
+        "theme14": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#e2454a"
+                },
+                "brandTxtRightFt": {
+                    "txtClr": "#828282",
+                    "ftSz": "12"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#fdf5f6"
+                },
+                "brandLine": {
+                    "bgClr": "#fbe0df"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#e2454a",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#fdf5f6",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#e2454a",
+                    "bgClr": "#fdf5f6",
+                    "borderColor": "#e2454a",
+                    "txtClr": "#e2454a"
+                }
+            }
+        },
+        "theme15": {
+            "brand": {
+                "brandTxtFt": {
+                    "txtClr": "#2fc2ba"
+                },
+                "brandComponentBg": {
+                    "bgClr": "#f7fdfc"
+                },
+                "brandLine": {
+                    "bgClr": "#dff6f4"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#2fc2ba",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#f7fdfc",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#2fc2ba",
+                    "bgClr": "#f7fdfc",
+                    "borderColor": "#2fc2ba",
+                    "txtClr": "#2fc2ba"
+                }
+            }
+        },
+        "theme16": {
+            "tip": {
+                "TipTextLadyGoTitle": {
+                    "ftSz": "14",
+                    "txtClr": "#FF4291",
+                    "pd": {
+                        "pdTp": "6",
+                        "pdlft": "10"
+                    },
+                    "mgnSpc": {
+                        "mgnTp": "5"
+                    }
+                }
+            },
+            "rights": {
+                "rightsComponentBg": {
+                    "pd": {
+                        "pdTp": "0",
+                        "pdRgt": "12",
+                        "pdlft": "12",
+                        "pdBtm": "6"
+                    },
+                    "bgClr": "#FFF8FB"
+                }
+            },
+            "brand": {
+                "brandComponentBg": {
+                    "bgClr": "#FFF8FB"
+                },
+                "brandEntranceLogo": {
+                    "bgClr": "#FF4291",
+                    "cnrRds": "2",
+                    "ftSz": "10",
+                    "ht": "14",
+                    "pd": {
+                        "pdRgt": "2",
+                        "pdlft": "2"
+                    },
+                    "txtAlg": "15",
+                    "txtClr": "#ffffff"
+                },
+                "brandTxtFt": {
+                    "txtClr": "#F72C64"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#FFF8FB",
+                    "ht": "42"
+                }
+            },
+            "jhs_price": {
+                "ladyGoNotStartJhsPriceItem": {
+                    "bgClr": "#1EC585"
+                },
+                "ladyGoJhsPriceCountDownText": {
+                    "txtClr": "#ffffff"
+                },
+                "ladyGoStartedJhsPriceItem": {
+                    "bgClr": "#FF4291"
+                },
+                "ladyGoNotStartJhsPriceCountDownItem": {
+                    "bgClr": "#14B97A"
+                },
+                "ladyGoStartedJhsPriceCountDownItem": {
+                    "bgClr": "#F03684"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#FF4291",
+                    "bgClr": "#FFF8FB",
+                    "borderColor": "#FF4291",
+                    "txtClr": "#FF4291"
+                }
+            }
+        },
+        "theme18": {
+            "brand": {
+                "brandComponentBg": {
+                    "bgClr": "#F4F8FF"
+                },
+                "brandTxtFt": {
+                    "txtClr": "#427DEF"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#003F98",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#F4F8FF",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#427DEF",
+                    "bgClr": "#F4F8FF",
+                    "borderColor": "#427DEF",
+                    "txtClr": "#427DEF"
+                }
+            }
+        },
+        "theme19": {
+            "brand": {
+                "brandComponentBg": {
+                    "bgClr": "#FAFBFD"
+                },
+                "brandTxtFt": {
+                    "txtClr": "#003F98"
+                },
+                "brandEntranceLogo": {
+                    "ht": "14",
+                    "pd": {
+                        "pdlft": "2",
+                        "pdRgt": "2"
+                    },
+                    "txtAlg": "15",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#003F98",
+                    "txtClr": "#ffffff"
+                }
+            },
+            "coupon": {
+                "couponEntrance": {
+                    "bgClr": "#FAFBFD",
+                    "ht": "42"
+                }
+            },
+            "promotion": {
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#003F98",
+                    "bgClr": "#FAFBFD",
+                    "borderColor": "#003F98",
+                    "txtClr": "#003F98"
+                }
+            }
+        },
+        "common": {
+            "button_container": {
+                "buttonContainer": {
+                    "pd": {
+                        "pdBtm": "24",
+                        "pdTp": "25"
+                    },
+                    "childrenWidth": "30"
+                }
+            },
+            "sys_button": {
+                "buttonEntry": {
+                    "mgnSpc": {
+                        "mgnLft": "14",
+                        "mgnRgt": "14"
+                    },
+                    "tltClrSlt": {
+                        "tltNrlClr": "#ff5000",
+                        "tltSltClr": "#ffffff",
+                        "tltHltClr": "#ffffff"
+                    },
+                    "bgSlr": {
+                        "bgNrlClr": "#ffffff",
+                        "bgSltClr": "#ff5000",
+                        "bgHltClr": "#ff5000"
+                    },
+                    "bdrSlr": {
+                        "bdrNrlClr": "#ff5000"
+                    },
+                    "tltNrlFt": "12",
+                    "bdrNrlWt": "0.5",
+                    "cnrRds": "3"
+                },
+                "buttonMenu": {
+                    "txtClr": "#5f646e",
+                    "pd": {
+                        "pdlft": "0"
+                    },
+                    "ftSz": "16"
+                },
+                "buttonAddCart": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#ffffff",
+                        "tltDslClr": "#33ffffff"
+                    },
+                    "bgSlr": {
+                        "bgNrlClr": "#ff9402",
+                        "bgDslClr": "#ff9402",
+                        "bgSltClr": "#ef8223",
+                        "bgHltClr": "#ef8223"
+                    },
+                    "ftSz": "14",
+                    "fmyNm": "bold",
+                    "wt": "88",
+                    "pd": {
+                        "pdlft": "0",
+                        "pdRgt": "0"
+                    }
+                },
+                "buttonBuyNow": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#ffffff",
+                        "tltDslClr": "#33ffffff"
+                    },
+                    "bgSlr": {
+                        "bgNrlClr": "#ff5000",
+                        "bgDslClr": "#ff5000",
+                        "bgSltClr": "#e85423",
+                        "bgHltClr": "#e85423"
+                    },
+                    "ftSz": "14",
+                    "fmyNm": "bold",
+                    "wt": "88",
+                    "pd": {
+                        "pdlft": "0",
+                        "pdRgt": "0"
+                    }
+                },
+                "buttonBuyJHS": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#ffffff",
+                        "tltDslClr": "#33ffffff"
+                    },
+                    "bgSlr": {
+                        "bgNrlClr": "#f91546",
+                        "bgDslClr": "#f91546",
+                        "bgSltClr": "#ef1443",
+                        "bgHltClr": "#ef1443"
+                    },
+                    "ftSz": "16",
+                    "fmyNm": "bold",
+                    "pd": {
+                        "pdlft": "0",
+                        "pdRgt": "0"
+                    }
+                },
+                "buttonBuyJHSBig": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#ffffff",
+                        "tltDslClr": "#33ffffff"
+                    },
+                    "bgSlr": {
+                        "bgNrlClr": "#ff266b",
+                        "bgDslClr": "#ff266b",
+                        "bgSltClr": "#ff266b",
+                        "bgHltClr": "#ff266b"
+                    },
+                    "ftSz": "16",
+                    "fmyNm": "bold"
+                }
+            },
+            "bottom_bar_icon": {
+                "bottomBarShopSM": {
+                    "wt": "88"
+                },
+                "bottomBarWWIcon": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#47b3f9",
+                        "tltDslClr": "#dddddd",
+                        "tltHltClr": "#47b3f9"
+                    }
+                },
+                "bottomBarShopIcon": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#999999",
+                        "tltDslClr": "#dddddd",
+                        "tltHltClr": "#999999"
+                    }
+                },
+                "bottomBarIconText": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#666666",
+                        "tltDslClr": "#dddddd"
+                    }
+                }
+            },
+            "bottom_bar_remind": {
+                "bottomBarRmdJhsNormal": {
+                    "tltClrSlt": {
+                        "tltNrlClr": "#ffffff",
+                        "tltDslClr": "#33ffffff"
+                    },
+                    "bgSlr": {
+                        "bgNrlClr": "#00c37a",
+                        "bgHltClr": "#00c37a",
+                        "bgDslClr": "#00c37a"
+                    }
+                }
+            },
+            "componentBg": {
+                "componentBgGray": {
+                    "bgClr": "#999999"
+                },
+                "componentBgWhite": {
+                    "bgClr": "#ffffff"
+                },
+                "componentBgLightGray": {
+                    "bgClr": "#f8f8f8"
+                },
+                "componentBgWhitePdBtm10": {
+                    "bgClr": "#ffffff",
+                    "ht": "20",
+                    "pd": {
+                        "pdTp": "0",
+                        "pdBtm": "0"
+                    }
+                },
+                "componentBgWhitePdBtm15": {
+                    "bgClr": "#ffffff",
+                    "ht": "29",
+                    "pd": {
+                        "pdTp": "0",
+                        "pdBtm": "9"
+                    }
+                }
+            },
+            "tip": {
+                "tipTextJyj": {
+                    "pd": {
+                        "pdTp": "12",
+                        "pdlft": "2"
+                    },
+                    "txtClr": "#5e300f",
+                    "ftSz": "14"
+                },
+                "tipTextDefault": {
+                    "pd": {
+                        "pdTp": "2",
+                        "pdlft": "10"
+                    },
+                    "txtClr": "#999999"
+                },
+                "tipTextYellow": {
+                    "pd": {
+                        "pdTp": "2",
+                        "pdlft": "10",
+                        "pdRgt": "10"
+                    },
+                    "txtClr": "#ff5000",
+                    "txtAlg": "11"
+                  },
+                "tipTextDeposit": {
+                  "pd": {
+                    "pdTp": "2",
+                    "pdlft": "10",
+                    "pdRgt": "10"
+                  },
+                  "txtClr": "#ff5000",
+                  "ftSz": "16",
+                  "txtAlg":"11"
+                }
+            },
+            "entranceLg": {
+                "entranceLg14": {
+                    "ht": "14"
+                },
+                "entranceLg20": {
+                    "ht": "20"
+                },
+                "entranceLg28": {
+                    "ht": "28"
+                },
+                "entranceLg21": {
+                    "ht": "21"
+                }
+            },
+            "entrance": {
+                "entranceInter": {
+                    "pdtp": "5",
+                    "pdBtm": "0"
+                },
+                "entranceInterSizingChart": {
+                    "ht": "43"
+                },
+                "componentBgWhitePdBtm10": {
+                    "bgClr": "#ffffff",
+                    "pd": {
+                        "pdTp": "0",
+                        "pdBtm": "10"
+                    },
+                    "mgnSpc": {
+                        "mgnLft": "4"
+                    }
+                },
+                "componentBgWhitePdBtm15": {
+                    "bgClr": "#ffffff",
+                    "pd": {
+                        "pdTp": "0",
+                        "pdBtm": "15"
+                    },
+                    "mgnSpc": {
+                        "mgnLft": "4"
+                    }
+                }
+            },
+            "entranceTitle": {
+                "entranceTitleBrandinfo": {
+                    "txtClr": "#666666",
+                    "ftSz": "14"
+                },
+                "entranceTitleEntry": {
+                    "txtClr": "#051b28",
+                    "ftSz": "14"
+                },
+                "entranceCainiao": {
+                    "txtClr": "#999999",
+                    "ftSz": "12"
+                },
+                "entranceTitleInfo": {
+                    "txtClr": "#666666"
+                },
+                "entranceTitlePromotion": {
+                    "ftSz": 12,
+                    "txtClr": "#f10035"
+                },
+                "entranceTitleFetchCoupon": {
+                    "txtClr": "#666666",
+                    "mgnLft": "4",
+                    "ftSz": "12"
+                },
+                "entranceTitleInter": {
+                    "txtClr": "#7A45E5",
+                    "ftSz": "14"
+                },
+                "entranceTitleSameDesign": {
+                    "txtClr": "#999999",
+                    "ftSz": "14"
+                },
+                "entranceTitleInterSizingChart": {
+                    "txtClr": "#051b28",
+                    "ftSz": "14"
+                },
+                "entranceTitleQuestionAll": {
+                    "txtClr": "#051b28",
+                    "ftSz": "12",
+                    "mgnSpc": {
+                        "mgnLft": "4"
+                    }
+                }
+            },
+            "entranceSubTitle": {
+                "entranceSubTitle": {
+                    "txtClr": "#5e300f",
+                    "ftSz": "14"
+                },
+                "entranceSubTitle12": {
+                    "txtClr": "#999999",
+                    "ftSz": "12"
+                },
+                "entranceSubTitleDouble11Coupon": {
+                    "txtClr": "#666666",
+                    "mgnRgt": "0"
+                }
+            },
+            "entranceIcon": {
+                "entranceIconMore": {
+                    "txtClr": "#cccccc",
+                    "iconFtSz": "15"
+                }
+            },
+            "entranceLogo": {
+                "brandEntranceLogo": {
+                    "ht": "12",
+                    "ftSz": "10",
+                    "cnrRds": "2",
+                    "bgClr": "#f72862"
+                },
+                "brandEntranceLogoTwo": {
+                    "bdrNrlClr": "#ff5000",
+                    "bgClr": "#ffffff",
+                    "borderColor": "#ff5000",
+                    "borderWidth": "0.5",
+                    "cnrRds": "2",
+                    "ftSz": "10",
+                    "ht": "12",
+                    "pd": {
+                        "pdRgt": "2",
+                        "pdlft": "2"
+                    },
+                    "txtAlg": "15",
+                    "txtClr": "#ff5000",
+                    "wt": "28"
+                }
+            },
+            "navi_item": {
+                "double12Style": {
+                    "clr": "#ffffff"
+                }
+            },
+            "navi_bar": {
+                "double12Style": {
+                    "bgClr": "#ff303d"
+                }
+            },
+            "division": {
+                "defaultDivision": {
+                    "ht": "12",
+                    "bgClr": "#eeeeee"
+                },
+                "textDivision": {
+                    "ht": "52",
+                    "bgClr": "#eeeeee"
+                },
+                "divisionLine": {
+                    "ht": "0.5",
+                    "bgClr": "#dddddd"
+                },
+                "whiteBgDivision": {
+                    "ht": "12",
+                    "bgClr": "#ffffff"
+                },
+                "divisionTipGap": {
+                    "ht": "5",
+                    "bgClr": "#ffffff"
+                },
+                "lightGrayLine": {
+                    "bgClr": "#e8e8e8"
+                }
+            },
+            "image_bar": {
+                "imageBarBg": {
+                    "bgClr": "#ee0a3b"
+                }
+            },
+            "price_jhs": {
+                "JhsPriceItem": {
+                    "bgClr": "#26a96d"
+                },
+                "JhsPriceCountDownText": {
+                    "txtClr": "#f91546"
+                },
+                "jhsOnSellJhsPriceItem": {
+                    "bgClr": "#f61d4b"
+                },
+                "ladyGoNotStartJhsPriceItem": {
+                    "bgClr": "#1EC585"
+                },
+                "ladyGoJhsPriceCountDownText": {
+                    "txtClr": "#ffffff"
+                },
+                "ladyGoStartedJhsPriceItem": {
+                    "bgClr": "#FF4291"
+                },
+                "ladyGoNotStartJhsPriceCountDownItem": {
+                    "bgClr": "#14B97A"
+                },
+                "ladyGoStartedJhsPriceCountDownItem": {
+                    "bgClr": "#F03684"
+                }
+            }
+        }
+    }
+}

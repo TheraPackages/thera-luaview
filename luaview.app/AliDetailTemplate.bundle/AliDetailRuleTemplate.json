@@ -1,0 +1,1437 @@
+{
+    "bottom_bar": {
+        "default": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "buy"
+                         }
+                         ]
+        },
+        "hotSpot": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_hotspot"
+                         }
+                         ]
+        },
+        "hotspot": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_hotspot"
+                         }
+                         ]
+        },
+        "jhsNotStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "bottom_bar_remind"
+                         }
+                         ]
+        },
+        "jhsStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "buyJhs"
+                         }
+                         ]
+        },
+        "ladyGoNotStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "bottom_bar_remind",
+                         "ruleId": "tmall_ladyGo"
+                         }
+                         ]
+        },
+        "ladyGoStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "tmall_ladyGoBuy"
+                         }
+                         ]
+        },
+        "presale": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_presale"
+                         }
+                         ]
+        },
+        "seckill": {
+            "children": [
+                         {
+                         "key": "bottom_bar_seckill"
+                         }
+                         ]
+        },
+        "supermarket": {
+            "children": [
+                         {
+                         "key": "bottom_bar_fav",
+                         "ruleId": "fav"
+                         },
+                         {
+                         "key": "bottom_bar_sm_cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cartSM"
+                         }
+                         ]
+        },
+        "supermarketLF": {
+            "children": [
+                         {
+                         "key": "bottom_bar_fav",
+                         "ruleId": "fav"
+                         },
+                         {
+                         "key": "bottom_bar_sm_cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "buy"
+                         }
+                         ]
+        },
+        "supermarketPresale": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopSM"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_presale"
+                         }
+                         ]
+        },
+        "tmall_hotspot": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwangTmall"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopTmall"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_hotspot"
+                         }
+                         ]
+        },
+        "tmall_ladyGoNotStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwangLadyGoTmall"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopLadyGoTmall"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "bottom_bar_remind",
+                         "ruleId": "tmall_ladyGo"
+                         }
+                         ]
+        },
+        "tmall_ladyGoStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwangLadyGoTmall"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopLadyGoTmall"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "tmall_ladyGoBuy"
+                         }
+                         ]
+        },
+        "tmall_waitForStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwangTmall"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopTmall"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_timing_shelves"
+                         }
+                         ]
+        },
+        "tmall_waitForStartSM": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopSMTmall"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_timing_shelves"
+                         }
+                         ]
+        },
+        "waitForStart": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "wangwang"
+                         },
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shop"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_timing_shelves"
+                         }
+                         ]
+        },
+        "waitForStartSM": {
+            "children": [
+                         {
+                         "key": "bottom_bar_icon",
+                         "ruleId": "shopSM"
+                         },
+                         {
+                         "key": "bottom_bar_fav"
+                         },
+                         {
+                         "key": "bottom_bar_timing_shelves"
+                         }
+                         ]
+        }
+    },
+    "bottom_bar_fav": {
+        "default": {
+            "model": {
+                "drawLine": "true",
+                "widthRatio": "0.1375"
+            }
+        },
+        "fav": {
+            "model": {
+                "drawLine": "false",
+                "widthRatio": "0.1375"
+            }
+        }
+    },
+    "bottom_bar_hotspot": {
+        "default": {
+            "model": {
+                "widthRatio": "0.5875"
+            }
+        }
+    },
+    "bottom_bar_icon": {
+        "shop": {
+            "actions": [
+                        "utOpenPageShopBar",
+                        "openPageShop"
+                        ],
+            "model": {
+                "disabled": "false",
+                "drawLine": "true",
+                "icon": "삊",
+                "iconHl": "삋",
+                "text": "店铺",
+                "widthRatio": "0.1375"
+            },
+            "style": "shop"
+        },
+        "shopLadyGoTmall": {
+            "actions": [
+                        "utOpenPageShopBar",
+                        "openPageLadyGoShop"
+                        ],
+            "model": {
+                "disabled": "false",
+                "drawLine": "true",
+                "icon": "",
+                "iconHl": "",
+                "text": "店铺",
+                "widthRatio": "0.1375"
+            },
+            "style": "shop"
+        },
+        "shopSM": {
+            "actions": [
+                        "utOpenPageShopBar",
+                        "openPageShopSM"
+                        ],
+            "model": {
+                "drawLine": "true",
+                "icon": "삊",
+                "iconHl": "삋",
+                "text": "进入天猫超市",
+                "widthRatio": "0.275"
+            },
+            "style": "shopSM"
+        },
+        "shopSMTmall": {
+            "actions": [
+                        "utOpenPageShopBar",
+                        "openPageShopSM"
+                        ],
+            "model": {
+                "drawLine": "true",
+                "icon": "",
+                "iconHl": "",
+                "text": "进入天猫超市",
+                "widthRatio": "0.275"
+            },
+            "style": "shopSM"
+        },
+        "shopTmall": {
+            "actions": [
+                        "utOpenPageShopBar",
+                        "openPageShop"
+                        ],
+            "model": {
+                "accessHint": "进入店铺",
+                "disabled": "false",
+                "drawLine": "true",
+                "icon": "",
+                "iconHl": "",
+                "text": "店铺",
+                "widthRatio": "0.1375"
+            },
+            "style": "shop"
+        },
+        "wangwang": {
+            "actions": [
+                        "utOpenPageWangwang",
+                        "openPageWangwang"
+                        ],
+            "model": {
+                "disabled": "${feature.hideWangwang}",
+                "drawLine": "false",
+                "icon": "쁪",
+                "iconHl": "쁫",
+                "text": "客服",
+                "widthRatio": "0.1375"
+            },
+            "style": "ww"
+        },
+        "wangwangLadyGoTmall": {
+            "actions": [
+                        "utOpenPageWangwang",
+                        "openPageWangwangRobot"
+                        ],
+            "model": {
+                "disabled": "${feature.hideWangwang}",
+                "drawLine": "false",
+                "icon": "",
+                "iconHl": "",
+                "text": "客服",
+                "widthRatio": "0.1375"
+            },
+            "style": "ww"
+        },
+        "wangwangTmall": {
+            "actions": [
+                        "utOpenPageWangwang",
+                        "openPageWangwang"
+                        ],
+            "model": {
+                "accessHint": "双击联系客服",
+                "disabled": "${feature.hideWangwang}",
+                "drawLine": "false",
+                "icon": "",
+                "iconHl": "",
+                "text": "客服",
+                "widthRatio": "0.1375"
+            },
+            "style": "ww"
+        }
+    },
+    "bottom_bar_presale": {
+        "default": {
+            "model": {
+                "widthRatio": "0.5875"
+            }
+        }
+    },
+    "bottom_bar_remind": {
+        "default": {
+            "actions": [
+                        "addJhsRemind"
+                        ],
+            "model": {
+                "disabled": "${vertical.jhs.juCollection}",
+                "itemId": "${item.itemId}",
+                "supplement": "已设置提醒",
+                "title": "开团提醒",
+                "verticalBiz": "${vertical.jhs.verticalBiz}",
+                "widthRatio": "0.29375"
+            }
+        },
+        "tmall_ladyGo": {
+            "actions": [
+                        "addLadyGoRemind"
+                        ],
+            "model": {
+                "disabled": "${vertical.ladyGo.collection}",
+                "itemId": "${item.itemId}",
+                "supplement": "已设置提醒",
+                "title": "开团提醒",
+                "verticalBiz": "${vertical.jhs.verticalBiz}",
+                "widthRatio": "0.29375"
+            }
+        }
+    },
+    "bottom_bar_seckill": {
+        "default": {
+            "model": {
+                "widthRatio": "1.0"
+            }
+        }
+    },
+    "bottom_bar_sm_cart": {
+        "default": {
+            "actions": [
+                        "openPageSMCart",
+                        "utOpenPageSMCart"
+                        ],
+            "model": {
+                "drawLine": "true",
+                "widthRatio": "0.275"
+            }
+        }
+    },
+    "bottom_bar_timing_shelves": {
+        "default": {
+            "model": {
+                "widthRatio": "0.5875"
+            }
+        }
+    },
+    "button_container": {
+        "default": {
+            "children": [
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoShopCategory"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoShop"
+                         }
+                         ]
+        },
+        "rateBottom": {
+            "children": [
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoRate"
+                         }
+                         ],
+            "filter": "${empty rate.rateList} AND ${empty rate.keywords}"
+        },
+        "shopBottom": {
+            "children": [
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoShopCategory"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoShop"
+                         }
+                         ]
+        },
+        "shopBottomSM": {
+            "children": [
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoShopCategorySM"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "gotoShopSM"
+                         }
+                         ]
+        }
+    },
+    "combo": {
+        "default": {
+            "filter": "${empty weappData.wapComboId01}",
+            "model": {
+                "comboKey": "wapComboId01"
+            }
+        }
+    },
+    "coupon_info": {
+        "default": {
+            "actions": [
+                        "openCouponInfo",
+                        "utOpenCouponInfo"
+                        ],
+            "filter": "${empty resource.coupon.couponList}",
+            "model": {
+                "couponList": "${resource.coupon.couponList}",
+                "linkUrl": "${resource.coupon.linkUrl}",
+                "linkWriting": "${resource.coupon.linkWriting}"
+            },
+            "style": "double11Coupon"
+        },
+        "taobao": {
+            "actions": [
+                        "openCouponInfo",
+                        "utFetchCoupon"
+                        ],
+            "filter": "${empty resource.coupon.couponList}",
+            "model": {
+                "couponList": "${resource.coupon.couponList}",
+                "linkUrl": "${resource.coupon.linkUrl}",
+                "linkWriting": "${resource.coupon.linkWriting}"
+            },
+            "style": "couponAndPromotion"
+        }
+    },
+    "division": {
+        "cainiaoAndPromotion": {
+            "filter": "${empty delivery.extras.PostTime} AND (${empty resource.bigPromotion} OR (${empty resource.bigPromotion.picUrl} AND ${empty resource.bigPromotion.memo}))",
+            "model": {
+                "topLine": "double",
+                "type": "blank"
+            }
+        },
+        "default": {
+            "model": {
+                "topLine": "double",
+                "type": "blank"
+            }
+        },
+        "hotActivitySM": {
+            "model": {
+                "title": "热门活动",
+                "topLine": "double",
+                "type": "text"
+            },
+            "style": "text"
+        },
+        "openProductDetail": {
+            "actions": [
+                        "utOpenBottomProductDetail",
+                        "openBottomProductDetail"
+                        ],
+            "model": {
+                "title": "继续拖动，查看图文详情",
+                "topLine": "double",
+                "type": "text"
+            },
+            "style": "text"
+        },
+        "pricedCouponTopAndBottom": {
+            "filter": "${empty resource.entrances.pricedCoupon.text}",
+            "model": {
+                "topLine": "double",
+                "type": "blank"
+            }
+        },
+        "promotionBottom": {
+            "filter": "${empty resource.bigPromotion} OR (${empty resource.bigPromotion.picUrl} AND ${empty resource.bigPromotion.memo})",
+            "model": {
+                "topLine": "double",
+                "type": "blank"
+            }
+        },
+        "singleCenterTheme": {
+            "model": {
+                "topLine": "center",
+                "type": "line"
+            },
+            "style": "theme"
+        },
+        "singleCenterWhiteBg": {
+            "model": {
+                "topLine": "center",
+                "type": "line"
+            },
+            "style": "whiteBg"
+        },
+        "tipDivision": {
+            "model": {
+                "type": "blank"
+            },
+            "style": "tip"
+        }
+    },
+    "entrance": {
+        "bigPromotion": {
+            "actions": [
+                        "openBigPromotionLink"
+                        ],
+            "filter": "${empty resource.bigPromotion} OR (${empty resource.bigPromotion.picUrl} AND ${empty resource.bigPromotion.memo})",
+            "model": {
+                "attributedTitle": "${resource.bigPromotion.memo}",
+                "bgUrl": "${resource.bigPromotion.bgPicUrl}",
+                "logo": "${resource.bigPromotion.picUrl}"
+            },
+            "style": "promotion"
+        },
+        "brandinfo": {
+            "filter": "${empty consumerProtection.channel.logo} AND ${empty consumerProtection.channel.title}",
+            "model": {
+                "logo": "${consumerProtection.channel.logo}",
+                "title": "${consumerProtection.channel.title}"
+            },
+            "style": "brandinfo"
+        },
+        "cainiaoNormal": {
+            "filter": "${empty delivery.extras.PostTime} OR ((not ${empty delivery.extras.PostTime}) AND (not ${empty delivery.extras.PostTime.link}))\n",
+            "model": {
+                "logo": "${delivery.extras.PostTime.icon}",
+                "title": "${delivery.extras.PostTime.text}"
+            },
+            "style": "cainiao"
+        },
+        "cainiaoSpecial": {
+            "actions": [
+                        "openCainiaoLink",
+                        "utOpenCainiaoLink"
+                        ],
+            "filter": "${empty delivery.extras.PostTime.link}",
+            "model": {
+                "icon": "큚",
+                "logo": "${delivery.extras.PostTime.icon}",
+                "title": "${delivery.extras.PostTime.text}"
+            },
+            "style": "cainiao"
+        },
+        "generalInterTip": {
+            "filter": "${empty feature.apparelIcon} AND ${empty feature.apparelTitle}",
+            "model": {
+                "logo": "${feature.apparelIcon}",
+                "title": "${feature.apparelTitle}"
+            },
+            "style": "sameDesign"
+        },
+        "interTip": {
+            "filter": "${empty vertical.inter}",
+            "model": {
+                "logo": "${vertical.inter.nationalIcon}",
+                "title": "${vertical.inter.fromName}"
+            },
+            "style": "inter"
+        },
+        "pricedCoupon": {
+            "actions": [
+                        "openPricedCoupon",
+                        "utOpenPricedCoupon"
+                        ],
+            "filter": "${empty resource.entrances.pricedCoupon.text}",
+            "model": {
+                "icon": "",
+                "title": "${resource.entrances.pricedCoupon.text}"
+            },
+            "style": "interSizingChart"
+        },
+        "pricedCouponTaobao": {
+            "actions": [
+                        "openPricedCoupon",
+                        "utOpenPricedCoupon"
+                        ],
+            "filter": "${empty resource.entrances.pricedCoupon.text}",
+            "model": {
+                "icon": "큚",
+                "title": "${resource.entrances.pricedCoupon.text}"
+            },
+            "style": "interSizingChart"
+        },
+        "questionAll": {
+            "actions": [
+                        "utOpenPageAskAll",
+                        "openPageAskAll"
+                        ],
+            "filter": "${empty vertical.askAll.askText} OR (not ${empty vertical.askAll.modelList})",
+            "model": {
+                "icon": "큚",
+                "logo": "${vertical.askAll.askIcon}",
+                "title": "${vertical.askAll.askText}"
+            },
+            "style": "questionAll"
+        },
+        "questionAllAsk1": {
+            "actions": [
+                        "utOpenPageAskAll",
+                        "openPageAskAll"
+                        ],
+            "filter": "${empty vertical.askAll.modelList} OR ${empty vertical.askAll.modelList[0]}",
+            "model": {
+                "logo": "https://img.alicdn.com/tps/TB1kdGIKXXXXXcXaXXXXXXXXXXX-42-42.png",
+                "subTitle": "${vertical.askAll.modelList[0].answerCountText}",
+                "title": "${vertical.askAll.modelList[0].askText}"
+            },
+            "style": "questionAllAsk1"
+        },
+        "questionAllAsk2": {
+            "actions": [
+                        "utOpenPageAskAll",
+                        "openPageAskAll"
+                        ],
+            "filter": "${empty vertical.askAll.modelList} OR ${empty vertical.askAll.modelList[1]}",
+            "model": {
+                "logo": "https://img.alicdn.com/tps/TB1kdGIKXXXXXcXaXXXXXXXXXXX-42-42.png",
+                "subTitle": "${vertical.askAll.modelList[1].answerCountText}",
+                "title": "${vertical.askAll.modelList[1].askText}"
+            },
+            "style": "questionAllAsk2"
+        },
+        "questionAllSimpleTitle": {
+            "actions": [
+                        "utOpenPageAskAll",
+                        "openPageAskAll"
+                        ],
+            "filter": "${empty vertical.askAll.modelList} OR ${empty vertical.askAll.title}",
+            "model": {
+                "icon": "큚",
+                "title": "${vertical.askAll.title}"
+            },
+            "style": "questionAll"
+        },
+        "taxDesc": {
+            "actions": [
+                        "openTaxDesc",
+                        "utOpenTaxDesc"
+                        ],
+            "filter": "${empty vertical.inter.tariff.name} AND ${empty vertical.inter.tariff.value}",
+            "model": {
+                "icon": "큚",
+                "title": "${vertical.inter.tariff.name} ${vertical.inter.tariff.value}"
+            },
+            "style": "interSizingChart"
+        }
+    },
+    "h5": {
+        "offsale": {
+            "model": {
+                "url": "http://h5.m.taobao.com/detailplugin/offsale.html",
+                "urlParams": {
+                    "isOffShelf": "true",
+                    "isSuperAct": "${feature.superActTime}",
+                    "itemId": "${item.itemId}",
+                    "sellerId": "${seller.userId}"
+                }
+            }
+        }
+    },
+    "hot_activity_chaoshi": {
+        "default": {
+            "filter": "${empty vertical.supermarket}"
+        }
+    },
+    "image_bar": {
+        "default": {
+            "filter": "${empty resource.entrances.double11Banner.icon}",
+            "model": {
+                "picUrl": "${resource.entrances.double11Banner.icon}"
+            }
+        }
+    },
+    "multistage": {
+        "default": {
+            "filter": "${empty delivery.extras.multistage}",
+            "model": {
+                "stages": "${delivery.extras.multistage}"
+            },
+            "style": "inter"
+        }
+    },
+    "navi_bar": {
+        "default": {
+            "children": [
+                         {
+                         "key": "navi_item",
+                         "ruleId": "back"
+                         },
+                         {
+                         "key": "navi_item",
+                         "ruleId": "center"
+                         },
+                         {
+                         "key": "navi_item",
+                         "ruleId": "cart"
+                         },
+                         {
+                         "key": "navi_item",
+                         "ruleId": "more"
+                         }
+                         ]
+        },
+        "supermarket": {
+            "children": [
+                         {
+                         "key": "navi_item",
+                         "ruleId": "back"
+                         },
+                         {
+                         "key": "navi_item",
+                         "ruleId": "center"
+                         },
+                         {
+                         "key": "navi_item",
+                         "ruleId": "search"
+                         },
+                         {
+                         "key": "navi_item",
+                         "ruleId": "more"
+                         }
+                         ]
+        }
+    },
+    "navi_item": {
+        "back": {
+            "actions": [
+                        "openPagePreview"
+                        ],
+            "model": {
+                "accessHint": "返回",
+                "positionKey": "left",
+                "title": "ꁺ",
+                "titleSizeRatio": "0.375"
+            }
+        },
+        "cart": {
+            "actions": [
+                        "utGotoCart",
+                        "openPageCart"
+                        ],
+            "model": {
+                "accessHint": "购物车",
+                "positionKey": "custom",
+                "title": "ꁊ",
+                "titleSizeRatio": "0.35"
+            }
+        },
+        "center": {
+            "model": {
+                "positionKey": "center",
+                "title": "",
+                "titleSizeRatio": "0.375",
+                "type": "2"
+            }
+        },
+        "more": {
+            "actions": [
+                        "showMenu"
+                        ],
+            "children": [
+                         {
+                         "key": "sys_button",
+                         "ruleId": "msgCenter"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "homePage"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "service"
+                         },
+                         {
+                         "key": "sys_button",
+                         "ruleId": "share"
+                         }
+                         ],
+            "model": {
+                "accessHint": "更多",
+                "positionKey": "right",
+                "title": "ꁪ",
+                "titleSizeRatio": "0.375"
+            }
+        },
+        "search": {
+            "actions": [
+                        "utOpenPageSearchSM",
+                        "openPageSearchSM"
+                        ],
+            "model": {
+                "accessHint": "搜索",
+                "positionKey": "custom",
+                "title": "끺",
+                "titleSizeRatio": "0.35"
+            }
+        }
+    },
+    "o2o": {
+        "default": {
+            "filter": "${empty weappData.wapO2O01} OR (not ${empty resource.entrances.offLineShop})"
+        }
+    },
+    "pic_gallery": {
+        "default": {
+            
+        }
+    },
+    "price": {
+        
+    },
+    "price_jhs": {
+        "default": {
+            
+        },
+        "jhsOnSellTmall": {
+            "style": "jhsOnSell"
+        },
+        "tmall_ladyGoNotStart": {
+            "style": "ladyGoNotStart"
+        },
+        "tmall_ladyGoStarted": {
+            "style": "ladyGoStarted"
+        }
+    },
+    "price_qianggou": {
+        
+    },
+    "price_tags": {
+        
+    },
+    "promotion_info": {
+        "default": {
+            "actions": [
+                        "openSalePromotion",
+                        "utOpenShopPromotion"
+                        ],
+            "filter": "${empty item.showShopActivitySize} OR ${empty price.shopProm}",
+            "model": {
+                "rightIcon": ""
+            },
+            "style": "shopPromotionTmall"
+        },
+        "taobao": {
+            "filter": "${empty item.showShopActivitySize} OR (${empty price.shopProm} AND ${empty resource.shopProm})",
+            "model": {
+                "rightIcon": ""
+            },
+            "style": "couponAndPromotion"
+        }
+    },
+    "rate_header": {
+        
+    },
+    "rate_single": {
+        
+    },
+    "rate_tags": {
+        
+    },
+    "recommend_chaoshi": {
+        "default": {
+            "filter": "${empty vertical.supermarket}"
+        }
+    },
+    "rights": {
+        "default": {
+            
+        }
+    },
+    "shop_header": {
+        "default": {
+            "actions": [
+                        "utOpenPageShop",
+                        "openPageShop"
+                        ]
+        }
+    },
+    "shop_info": {
+        "default": {
+            "children": [
+                         {
+                         "key": "shop_info_item",
+                         "ruleId": "allItem"
+                         },
+                         {
+                         "key": "shop_info_item",
+                         "ruleId": "newItem"
+                         },
+                         {
+                         "key": "shop_info_item",
+                         "ruleId": "fans"
+                         }
+                         ]
+        }
+    },
+    "shop_info_item": {
+        "allItem": {
+            "actions": [
+                        "utOpenPageShopAllItem",
+                        "openPageShopAllItem"
+                        ],
+            "filter": "${empty seller.allItemCount}",
+            "model": {
+                "subTitle": "${seller.allItemCount}",
+                "title": "全部宝贝",
+                "transferToShort": "true"
+            }
+        },
+        "fans": {
+            "model": {
+                "subTitle": "${seller.fans}",
+                "title": "关注人数"
+            }
+        },
+        "newItem": {
+            "actions": [
+                        "utOpenPageShopNewItem",
+                        "openPageShopNewItem"
+                        ],
+            "filter": "${empty seller.newItemCount}",
+            "model": {
+                "subTitle": "${seller.newItemCount}",
+                "title": "上新宝贝"
+            }
+        }
+    },
+    "sku": {
+        
+    },
+    "subinfo": {
+        "default": {
+            "filter": "${empty delivery.postage} AND ${empty item.sellCount} AND ${empty delivery.from}",
+            "model": {
+                "infoList": [
+                             "${delivery.postage}",
+                             "月销${deleteIfNull item.sellCount}笔",
+                             "${delivery.from}"
+                             ]
+            }
+        },
+        "interSeckillTariff": {
+            "filter": "${empty feature.taxation} ",
+            "model": {
+                "infoList": [
+                             "${ feature.taxation}"
+                             ]
+            }
+        },
+        "jhs_inter": {
+            "filter": "${empty vertical.inter.tariff.name} AND ${empty vertical.inter.tariff.value}",
+            "model": {
+                "infoList": [
+                             "${vertical.inter.tariff.name} ${vertical.inter.tariff.value}"
+                             ]
+            }
+        },
+        "jhs_normal": {
+            "filter": "${empty delivery.postage} AND ${empty delivery.from}",
+            "model": {
+                "infoList": [
+                             "${delivery.postage}",
+                             "${delivery.from}"
+                             ]
+            }
+        },
+        "normalTariff": {
+            "filter": "(not ${empty feature.taxation})",
+            "model": {
+                "infoList": [
+                             "${delivery.postage}",
+                             "月销${deleteIfNull item.sellCount}笔",
+                             "${delivery.from}"
+                             ]
+            }
+        },
+        "preSellForTaobaoB": {
+            "filter": "(${empty delivery.postage} AND ${empty delivery.from}) OR ${empty vertical.presale.orderedItemAmount}\n\n",
+            "model": {
+                "infoList": [
+                             "${delivery.postage}",
+                             "已预定${vertical.presale.orderedItemAmount}件",
+                             "${delivery.from}"
+                             ]
+            }
+        },
+        "preSellForTaobaoC": {
+            "filter": "(${empty delivery.postage} AND ${empty delivery.from} AND ${empty item.sellCount}) OR ((NOT ${empty vertical.presale.orderedItemAmount}) AND (NOT (${empty delivery.postage} AND ${empty delivery.from} AND ${empty item.sellCount})))",
+            "model": {
+                "infoList": [
+                             "${delivery.postage}",
+                             "月销${deleteIfNull item.sellCount}笔",
+                             "${delivery.from}"
+                             ]
+            }
+        },
+        "supermarket": {
+            "filter": "${empty delivery.postage} AND ${empty item.sellCount} AND ${empty vertical.supermarket.weight}",
+            "model": {
+                "infoList": [
+                             "重量${deleteIfNull vertical.supermarket.weight}",
+                             "${delivery.postage}",
+                             "月销${deleteIfNull item.sellCount}笔"
+                             ]
+            }
+        }
+    },
+    "sys_button": {
+        "buy": {
+            "actions": [
+                        "utBuyNow",
+                        "buyNow"
+                        ],
+            "model": {
+                "defaultTitle": "立即购买",
+                "enabled": "${trade.buyEnable}",
+                "title": "${trade.buyText}",
+                "widthRatio": "0.29375"
+            },
+            "style": "buy"
+        },
+        "buyJhs": {
+            "actions": [
+                        "utBuyNow",
+                        "buyNow"
+                        ],
+            "model": {
+                "defaultTitle": "立即购买",
+                "enabled": "${trade.buyEnable}",
+                "title": "${trade.buyText}",
+                "widthRatio": "0.29375"
+            },
+            "style": "buyJhs${vertical.jhs.verticalBiz}"
+        },
+        "cart": {
+            "actions": [
+                        "utAddToCart",
+                        "addToCart"
+                        ],
+            "model": {
+                "defaultTitle": "加入购物车",
+                "enabled": "${trade.cartEnable}",
+                "title": "${trade.cartText}",
+                "widthRatio": "0.29375"
+            },
+            "style": "cart"
+        },
+        "cartSM": {
+            "actions": [
+                        "utAddToCart",
+                        "addToCart"
+                        ],
+            "model": {
+                "defaultTitle": "加入购物车",
+                "enabled": "${trade.cartEnable}",
+                "title": "${trade.cartText}",
+                "widthRatio": "0.5875"
+            },
+            "style": "cart"
+        },
+        "gotoRate": {
+            "actions": [
+                        "utOpenPageRate",
+                        "openPageRate"
+                        ],
+            "model": {
+                "enabled": "true",
+                "title": "查看全部评价"
+            },
+            "style": "rate"
+        },
+        "gotoShop": {
+            "actions": [
+                        "utOpenPageShop",
+                        "openPageShop"
+                        ],
+            "model": {
+                "enabled": "true",
+                "title": "进店逛逛"
+            },
+            "style": "shop"
+        },
+        "gotoShopCategory": {
+            "actions": [
+                        "utOpenPageShopCategory",
+                        "openPageShopCategory"
+                        ],
+            "model": {
+                "enabled": "true",
+                "title": "查看分类"
+            },
+            "style": "shop"
+        },
+        "gotoShopCategorySM": {
+            "actions": [
+                        "utOpenPageShopCategory",
+                        "openPageShopCategorySM"
+                        ],
+            "model": {
+                "enabled": "true",
+                "title": "查看分类"
+            },
+            "style": "shop"
+        },
+        "gotoShopSM": {
+            "actions": [
+                        "utOpenPageShop",
+                        "openPageShopSM"
+                        ],
+            "model": {
+                "enabled": "true",
+                "title": "进店逛逛"
+            },
+            "style": "shop"
+        },
+        "homePage": {
+            "actions": [
+                        "utOpenPageHome",
+                        "openPageHome"
+                        ],
+            "model": {
+                "title": "ꀚ　首页"
+            },
+            "style": "menu"
+        },
+        "msgCenter": {
+            "actions": [
+                        "openPageMsgCenter"
+                        ],
+            "model": {
+                "receiveMsg": "true",
+                "title": "ꂊ　消息"
+            },
+            "style": "menu"
+        },
+        "service": {
+            "actions": [
+                        "openPageService"
+                        ],
+            "model": {
+                "title": "떊　帮助"
+            },
+            "style": "menu"
+        },
+        "share": {
+            "actions": [
+                        "utShowShare",
+                        "showShare"
+                        ],
+            "model": {
+                "title": "ꄪ　分享"
+            },
+            "style": "menu"
+        },
+        "tmall_ladyGoBuy": {
+            "actions": [
+                        "utBuyNow",
+                        "buyNow"
+                        ],
+            "model": {
+                "defaultTitle": "立即购买",
+                "enabled": "${trade.buyEnable}",
+                "title": "${trade.buyText}",
+                "widthRatio": "0.29375"
+            },
+            "style": "buyJhs0"
+        }
+    },
+    "sys_list": {
+        
+    },
+    "timelimit_activity_chaoshi": {
+        "default": {
+            "filter": "${empty vertical.supermarket}"
+        }
+    },
+    "tip": {
+        "delivery": {
+            "filter": "${empty vertical.inter.delivery}",
+            "model": {
+                "text": "${vertical.inter.delivery}"
+            }
+        },
+        "deposit": {
+            "filter": "${empty price.priceTip}",
+            "model": {
+                "text": "${price.priceTip}"
+            },
+            "style": "deposit"
+        },
+        "jyj": {
+            "filter": "${empty vertical.jyj.logoText}",
+            "model": {
+                "text": "${vertical.jyj.logoText}"
+            },
+            "style": "jyj"
+        },
+        "postTime": {
+            "filter": "${empty delivery.extras.PostTime.text}",
+            "model": {
+                "text": "${delivery.extras.PostTime.text}"
+            }
+        },
+        "presale": {
+            "filter": "${empty vertical.presale.tip}",
+            "model": {
+                "text": "${vertical.presale.tip}"
+            }
+        },
+        "priceTip": {
+            "filter": "${empty price.priceTip}",
+            "model": {
+                "text": "${price.priceTip}"
+            },
+            "style": "price"
+        },
+        "pricedCouponTip": {
+            "filter": "${empty item.infoText.pricedCouponInfo.text}",
+            "model": {
+                "text": "${item.infoText.pricedCouponInfo.text}"
+            },
+            "style": "price"
+        }
+    },
+    "title_share": {
+        
+    }
+}

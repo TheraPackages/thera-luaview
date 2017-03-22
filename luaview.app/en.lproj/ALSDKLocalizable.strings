@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+
+  AlilangSDK-Strings for English
+ 
+  Created by Sunus on 16/12/14.
+  Copyright (c) 2014 alibaba. All rights reserved.
+*/
+
+ALSDK_LOGIN_ERROR = "Login Failed";
+ALSDK_LOGIN_USERNAME = "Username";
+ALSDK_LOGIN_PASSWORD = "Password";
+ALSDK_LOGIN_BUTTON_TITLE = "Login";
+ALSDK_LABEL_PRIVATE_DEVICE = "The device is belonged to %@";
+ALSDK_LABEL_FORBID_PUBLIC = "Public account is not allowed, please use domain account";
+ALSDK_HUD_LOGGING = "Loging In";
+ALSDK_PUBLIC_FORBID_MESSAGE = "Log in using public account is not supported. please log in using your domain name then choose the public account you want to use. (If you can not see your public account after login, please contact (%@))";
+ALSDK_HUD_2FA = "Registering trust device";
+ALSDK_2FA_INPUT_NOT_EMPTY = "Input can not be empty";
+ALSDK_2FA_ERROR_TITLE = "Error";
+ALSDK_2FA_ERROR_MESSAGE = "Error sending sms code, please retry";
+ALSDK_2FA_SMS_PLACEHOLDER = "SMS Code";
+ALSDK_2FA_VOICE_PLACEHOLDER = "Voice Code";
+ALSDK_2FA_ID_PLACEHOLDER= "Last 4 characters of your ID Card";
+ALSDK_2FA_TITLE = "Start Two-Factor Verification";
+ALSDK_2FA_VERIFY_BUTTON_TITLE = "Next";
+ALSDK_2FA_RESEND_COUNTDOWN_TITLE = "Use voice service\nin %d";
+ALSDK_2FA_RESEND_BUTTON_TITLE = "Use voice code";
+ALSDK_2FA_SENDING_BUTTON_TITLE = "Sending";
+ALSDK_2FA_TIP_USING_VOICE = "Use Alilang Voice Service if you didn't receive SMS";
+ALSDK_2FA_SENDING_BUTTON_ERROR_TITLE = "Error";
+ALSDK_2FA_HELP_LABEL_SMSCODE = "Please enter SMS code from %@";
+ALSDK_2FA_HELP_LABEL_VOICECODE = "Please enter voice code from %@";
+ALSDK_2FA_HELP_LABEL_MAINLAND = "Please enter your last 4 characters of your ID Card/Passport";
+ALSDK_2FA_HELP_LABEL_NON_MAINLAND = "Please enter your last 4 characters or your ID Card/Passport";
+ALSDK_2FA_SWITCH_KEYBOARD_NUM = "Switch to numberic keypad";
+ALSDK_2FA_SWITCH_KEYBOARD_EMAIL = "Switch to alphabet keypad";
+
+ALSDK_SWITCH_ACCOUNT_UNAVAILABLE = "(Unavailable)";
+ALSDK_SWITCH_ACCOUNT  = "Please choose your account";
+ALSDK_SWITCH_ACCOUNT_TIP = "Tip\n\tIf you need to switch accounts afterwards, please logout your current account then re-login and choose";
+ALSDK_PUBLIC_ACCOUNT = "Public Account";
+ALSDK_PERSONAL_ACCOUNT = "Personal Account";
+
+ALSDK_CERT_FETCH_ERROR = "Fetch certificate fail";
+ALSDK_TFA_ERROR = "Two-Factor Verification Error";
+ALSDK_CERT_VALIDATE_SUCCESS = "Certificate veried";
+ALSDK_CERT_VALIDATE_ERROR = "Certificate verification failed";
+ALSDK_OAUTH_LOGIN_SUCCESS = "Login successed";
+ALSDK_OAUTH_LOGIN_ERROR = "Login failed";
+ALSDK_AUTH_SUCCESS = "Verification successed";
+NETWORK_UNREACHABLE = "Network is unreachable, please check your connection";
+
+GESTURE_PASSWORD = "Gesture";
+DRAW_GESTURE_PASSWORD = "Please draw your GesturePassword";
+SET_GESTURE_PASSWORD = "Please Setting a GesturePassword";
+SET_GESTURE_PASSWORD_AGAIN = "Two GesturePassword don't match, please re-setting";
+SET_CONFIRM_GESTURE_PASSWORD = "Please comfirm your GesturePassword";
+GESTURE_CREATED = "GesturePassword is created";
+GESTURE_TOO_SHORT = "GesturePassword is too short";
+GESTURE_CORRECT = "GesturePassword is Correct";
+GESTURE_INCORRECT = "GesturePassword is Incorrect, %d times left to attemp";
+FORGET_GESTURE_LABEL = "Forget GesturePassword";
+
+HANDWRITING_PASSWORD = "HandWriting";
+DRAW_HANDWRITING = "Draw HandWriting";
+SET_HANDWRITING = "Setting HandWriting";
+SET_HANDWRITING_AGAIN = "Two HandWriting don't match, please re-setting";
+SET_CONFIRM_HANDWRITING = "Confirm HandWriting";
+FORGET_HANDWRITING_LABEL = "Forget Handwriting";
+HANDWRITING_INCORRECT = "HandWriting is Incorrect,\n%d times left to attemp";
+HANDWRITING_TOO_SIMPLE = "HandWriting is too simple, please re-setting";
+HANDWRITING_TOO_COMPLEX = "HandWriting is too complex, please re-setting";
+HANDWRITING_CORRECT = "HandWriting is correct";
+HANDWRITING_CREATED = "HandWriting is created";
+
+TOUCH_ID_AUTH = "Touch ID Verification";
+OR_USING_TOUCH_ID = " Or using TouchID";
+
+ENABLE_CELLULAR = "Failed to connect, please allow Alilang to use cellular in Settings > Cellular";
+ALERT_MITM_PROXY = "You may under MITM attack, or using proxy";
+IOS_8_OR_LATER = "This function is not available on iOS versions prior to 8.0";
+ALILANG_2_OR_LATER = "Please upgrade to Alilang 2.0 to login VPN";
+ALILANG_NOT_INSTALLED = "Please install Alilang 2.0 to login VPN";
+INSTALL_ALILANG = "Install";
+CANCEL = "Cancel";

@@ -1,0 +1,194 @@
+{
+    "homePage": [
+                 {
+                 "ID": "navi_bar",
+                 "key": "navi_bar",
+                 "ruleId": ""
+                 },
+                 {
+                 "ID": "pic_gallery",
+                 "key": "pic_gallery",
+                 "ruleId": ""
+                 },
+                 {
+                 "ID": "main_layout",
+                 "children": [
+                              {
+                              "key": "image_bar"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "generalInterTip"
+                              },
+                              {
+                              "key": "title_share",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "price",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "tipDivision"
+                              },
+                              {
+                              "key": "tip",
+                              "ruleId": "priceTip"
+                              },
+                              {
+                              "key": "tip",
+                              "ruleId": "presale"
+                              },
+                              {
+                              "key": "tip",
+                              "ruleId": "pricedCouponTip"
+                              },
+                              {
+                              "key": "subinfo",
+                              "ruleId": "normalTariff"
+                              },
+                              {
+                              "key": "subinfo",
+                              "ruleId": "interSeckillTariff"
+                              },
+                              {
+                              "key": "subinfo",
+                              "ruleId": "jhs_inter"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "cainiaoNormal"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "cainiaoSpecial"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "bigPromotion"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "cainiaoAndPromotion"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "pricedCouponTopAndBottom"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "pricedCouponTaobao"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "pricedCouponTopAndBottom"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "brandinfo"
+                              },
+                              {
+                              "key": "rights",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "singleCenterTheme"
+                              },
+                              {
+                              "key": "coupon_info",
+                              "ruleId": "taobao"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "singleCenterTheme"
+                              },
+                              {
+                              "key": "promotion_info",
+                              "ruleId": "taobao"
+                              },
+                              {
+                              "key": "division"
+                              },
+                              {
+                              "key": "sku",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "o2o"
+                              },
+                              {
+                              "key": "division"
+                              },
+                              {
+                              "key": "rate_header",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "rate_tags",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "rate_single",
+                              "ruleId": ""
+                              },
+                              {
+                              "key": "button_container",
+                              "ruleId": "rateBottom"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "singleCenterWhiteBg"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "questionAll"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "questionAllSimpleTitle"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "questionAllAsk1"
+                              },
+                              {
+                              "key": "entrance",
+                              "ruleId": "questionAllAsk2"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "default"
+                              },
+                              {
+                              "key": "shop_header",
+                              "ruleId": "default"
+                              },
+                              {
+                              "key": "shop_info",
+                              "ruleId": "default"
+                              },
+                              {
+                              "key": "button_container",
+                              "ruleId": "shopBottom"
+                              },
+                              {
+                              "key": "combo",
+                              "ruleId": "default"
+                              },
+                              {
+                              "key": "division",
+                              "ruleId": "openProductDetail"
+                              }
+                              ],
+                 "key": "sys_list",
+                 "ruleId": ""
+                 },
+                 {
+                 "ID": "bottom_bar",
+                 "key": "bottom_bar",
+                 "ruleId": ""
+                 }
+                 ]
+}

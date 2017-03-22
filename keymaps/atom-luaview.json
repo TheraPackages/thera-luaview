@@ -1,0 +1,13 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "atom-luaview:toggle",
+    "f3": "atom-luaview:setBreakpoint",
+    "f4": "atom-luaview:removeBreakpoint",
+
+    "f6": "atom-luaview:nextLine",
+    "f7": "atom-luaview:nextStep",
+    "f8": "atom-luaview:nextBreakPoint",
+    "f10": "atom-luaview:closeDebugServer",
+    "f12": "atom-luaview:setupDebugServer"
+  }
+}

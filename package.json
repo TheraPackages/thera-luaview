@@ -1,0 +1,29 @@
+{
+  "name": "atom-luaview",
+  "main": "./lib/atom-luaview",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/atom-luaview",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "thera-debug-common-types": "^0.1.6"
+  },
+  "providedServices": {
+    "thera-debug-protocol": {
+      "description": "Does a useful thing",
+      "versions": {
+        "1.0.0": "provideDebugService"
+      }
+    },
+    "project-template-protocol": {
+      "description": "provide a project template",
+      "versions": {
+        "1.0.0": "provideProjectTemplate"
+      }
+    }
+  }
+}

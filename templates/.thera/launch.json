@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "main": "${workspaceRoot}/main.lua",
+  "launch": {
+    "appid": "com.taobao.juhuasuan.luaview",
+    "path": "${attachPackage}/luaview.app"
+  },
+  "type": "luaview"
+}

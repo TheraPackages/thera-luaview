@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"TBJoinerKit": [],
+        "TBJSONModel": [],
+        "StyleKit":[]
+	},
+	"name": "TBTradeDecker",
+	"requires_arc": true,
+	"source_files": [
+		"TBTradeDecker/Source/**/*"
+	],
+  	"resources": [
+    	"TBTradeDecker/Resources/**/*"
+  	],
+	"summary": "Encrypt/Decrypt: AES. Hash: MD5, SHA(SHA1, SHA224, SHA256, SHA384, SHA512). Encode/Decode: Base64, Hex.",
+	"version": "0.0.1"
+}

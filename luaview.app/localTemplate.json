@@ -1,0 +1,664 @@
+{
+    "outterurl": {
+        "templates": [
+            {
+                "text": "全部",
+                "eventId": "allOrder_native",
+                "code": "allOrder"
+            },
+            {
+                "text": "机票",
+                "eventId": "flight_h5",
+                "code": "flight"
+            },
+            {
+                "text": "彩票",
+                "eventId": "lottery_h5",
+                "code": "lottery"
+            },
+            {
+                "text": "电影票",
+                "eventId": "movie_h5",
+                "code": "movie"
+            },
+            {
+                "text": "火车票",
+                "eventId": "train_h5",
+                "code": "train"
+            }
+        ]
+    },
+    "event": {
+        "templates": {
+            "item_8001_baoxian": {
+                "params": {
+                    "outOrderId": "${outOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/bx/aviationinsv2.html?applicationNo=${outOrderId}"
+            },
+            "item_1410_flight": {
+                "params": {
+                    "orderId": "${flightOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/trip/flight/myorder/detail.html?orderType=interflight&orderId=${orderId}"
+            },
+            "item_7000_daigou": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/global/dg_orderdetail.html?id=${orderId}"
+            },
+            "item_5000_lifeService": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/app/daojia/www/orderdetails/index.html?tbMainOrderId=${orderId}"
+            },
+            "item_5000_waimai": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/app/waimai2/www/orderdetails/index.html?tbMainOrderId=${orderId}"
+            },
+            "item_jiyoujia_shangmentuihuo": {
+                "eventType": "url",
+                "url": "https://market.m.taobao.com/markets/youjia/shangmentuihuo"
+            },
+            "item_jiyoujia_songhuoruhu": {
+                "eventType": "url",
+                "url": "https://market.m.taobao.com/markets/youjia/songhuoruhu"
+            },
+            "item_jiyoujia_mianfeisongzhuang": {
+                "eventType": "url",
+                "url": "https://market.m.taobao.com/markets/youjia/mianfeisongzhuang"
+            },
+            "item_5001_taoLifeService": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/app/daojia/www/orderdetails/index.html?tbMainOrderId=${orderId}"
+            },
+            "item_5001_bianliLifeService": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/locallife/community/orderDetail.html?orderId=${orderId}"
+            },
+            "item_200_bjtriptp2": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/trip/order-detail/home/index.html?tcOrderId=${orderId}"
+            },
+            "item_200_jiyoujia": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://vtrade.taobao.com/detail.htm?bizOrderId=${orderId}"
+            },
+            "item_200_shangmenfuwu": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/fwjy/detail.html?bizorderId=${orderId}"
+            },
+            "doPayOverseas": {
+                "v": "3.0",
+                "api": "mtop.order.doPay",
+                "params": {
+                    "code": "${this.code}",
+                    "orderId": "${overOrderId}"
+                },
+                "eventType": "mtop"
+            },
+            "queryTail": {
+                "v": "3.0",
+                "api": "mtop.order.queryTail",
+                "params": {
+                    "code": "${this.code}",
+                    "mainOrderId": "${mainOrderId}"
+                },
+                "eventType": "mtop"
+            },
+            "talkphone": {
+                "eventType": "native"
+            },
+            "appendRate": {
+                "params": {
+                    "orderId": "${mainOrderId}",
+                    "subOrderId": "${subOrderIds[?]}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "cancelOrder": {
+                "eventType": "native",
+                "reasons": [
+                    {
+                        "value": "我不想买了",
+                        "key": "1"
+                    },
+                    {
+                        "value": "信息填写错误，重新拍",
+                        "key": "2"
+                    },
+                    {
+                        "value": "卖家缺货",
+                        "key": "3"
+                    },
+                    {
+                        "value": "同城见面交易",
+                        "key": "4"
+                    },
+                    {
+                        "value": "其他原因",
+                        "key": "5"
+                    }
+                ],
+                "nextEventId": "orderOperate"
+            },
+            "allOrder_native": {
+                "eventType": "nativeUrl"
+            },
+            "viewLogistic": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "delayTimeout": {
+                "title": "确认延长收货时间?",
+                "eventType": "alert",
+                "msg": "每笔订单只能延迟一次哦",
+                "nextEventId": "orderOperate"
+            },
+            "item_150_movie": {
+                "params": {
+                    "tbOrderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/movie/tbm/myorder-detail.html?tbOrderId=${tbOrderId}"
+            },
+            "item_200_daijia": {
+                "params": {
+                    "orderId": "${daijia}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/servitization/daijia/order.html?data=${orderId}"
+            },
+            "item_1102_baoxian": {
+                "params": {
+                    "bizOrderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/bx/orderdetail.html?bizOrderId=${bizOrderId}"
+            },
+            "item_6800_train": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/trip/train/myorder/detail.html?orderId=${orderId}"
+            },
+            "usePugService": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://hs.tmall.com/pug/show_stores_for_mobile.htm?order_id=${orderId}"
+            },
+            "realNameAuth": {
+                "params": {
+                    "order_id": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://wt.m.taobao.com/trade/auth.htm?order_id=${order_id}"
+            },
+            "orderOperate": {
+                "v": "3.0",
+                "api": "mtop.order.doOp",
+                "params": {
+                    "archive": "${archive}",
+                    "code": "${this.code}",
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "mtop"
+            },
+            "lottery_h5": {
+                "eventType": "currentViewUrl",
+                "url": "https://h5.m.taobao.com/cph5/tb/orderlist/index.html?tag=order_detail"
+            },
+            "item_200_miaoloan": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/mlapp/odetail.html?hideBar=true&bizOrderId=${orderId}"
+            },
+            "talkww": {
+                "eventType": "native"
+            },
+            "item_1600_waimai": {
+                "params": {
+                    "bizOrderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://dd.m.taobao.com/dd/my_delivery_detail/${bizOrderId}"
+            },
+            "movie_h5": {
+                "eventType": "currentViewUrl",
+                "url": "https://h5.m.taobao.com/movie/tbm/movieorder.html?tag=order_detail"
+            },
+            "cancelApply": {
+                "eventType": "native",
+                "reasons": [
+                    {
+                        "value": "好奇随便尝试下",
+                        "key": "11"
+                    },
+                    {
+                        "value": "分期的额度不够",
+                        "key": "12"
+                    },
+                    {
+                        "value": "分期的利息太高",
+                        "key": "13"
+                    },
+                    {
+                        "value": "再看看其他车型",
+                        "key": "14"
+                    },
+                    {
+                        "value": "新业务有些顾虑",
+                        "key": "15"
+                    },
+                    {
+                        "value": "其他原因",
+                        "key": "16"
+                    }
+                ],
+                "nextEventId": "orderOperate"
+            },
+            "item_1400_flight": {
+                "params": {
+                    "orderId": "${flightOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/trip/flight/myorder/detail.html?orderId=${orderId}"
+            },
+            "rateOrder": {
+                "params": {
+                    "orderId": "${mainOrderId}",
+                    "subOrderId": "${subOrderIds[?]}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "item_3yzbService": {
+                "params": {
+                    "subOrderId": "${subOrderIds[?]}"
+                },
+                "eventType": "url",
+                "url": "https://fwfront.tmall.com/serviceDetail/buyerZhibaoMobileDetail.htm?serviceOrderId=${subOrderId}"
+            },
+            "item_allHealthService": {
+                "params": {
+                    "subOrderId": "${subOrderIds[?]}"
+                },
+                "eventType": "url",
+                "url": "https://bookdoctor.m.taobao.com/view/security/healthSecurity/mi?orderId=${subOrderId}"
+            },
+            "delOrder": {
+                "title": "确认删除订单?",
+                "eventType": "alert",
+                "msg": "删除之后可以从电脑端订单回收站恢复",
+                "nextEventId": "orderOperate"
+            },
+            "doAny": {
+                "v": "3.0",
+                "api": "mtop.order.doAny",
+                "params": {
+                    "code": "${this.code}",
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "mtop"
+            },
+            "item_700_hotel": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/trip/hotel/order/order-detail.html?orderId=${orderId}"
+            },
+            "item_itemNative": {
+                "params": {
+                    "itemId": "${subAuctionIds[?]}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "item_3000_fund": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/fund/orderdetail.html?orderId=${orderId}"
+            },
+            "item_200_lightservice": {
+                "params": {
+                    "orderId": "${lightService}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/fwjy/detail.html?data=${orderId}"
+            },
+            "viewCard": {
+                "params": {
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/awp/mtb/oper.htm?operId=1&hybrid=true&orderId=${orderId}"
+            },
+            "tmallAppendRate": {
+                "params": {
+                    "orderId": "${mainOrderId}",
+                    "subOrderId": "${subOrderIds[?]}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "flight_h5": {
+                "eventType": "currentViewUrl",
+                "url": "https://h5.m.taobao.com/trip/flight/myorder/list.html?tag=order_detail#list"
+            },
+            "train_h5": {
+                "eventType": "currentViewUrl",
+                "url": "https://h5.m.taobao.com/trip/h5-train/myorder/list.html?tag=order_detail"
+            },
+            "item_orderNative": {
+                "params": {
+                    "archive": "${archive}",
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "doPay": {
+                "v": "4.0",
+                "api": "mtop.order.doPay",
+                "params": {
+                    "code": "${this.code}",
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "mtop"
+            },
+            "closeWindow": {
+                "eventType": "native"
+            },
+            "tmallRateOrder": {
+                "params": {
+                    "orderId": "${mainOrderId}",
+                    "subOrderId": "${subOrderIds[?]}"
+                },
+                "eventType": "nativeUrl"
+            },
+            "viewEticket": {
+                "params": {
+                    "isArchive": "${archive}",
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/eticket-detail/index.html?outerId=${orderId}&isArchive=${isArchive}&hybrid=true"
+            },
+            "item_1102_baoxianflight": {
+                "params": {
+                    "bizOrderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://h5.m.taobao.com/bx/aviationins.html?bizOrderId=${bizOrderId}"
+            },
+            "item_service": {
+                "eventType": "native"
+            },
+            "viewEticket2": {
+                "params": {
+                    "isArchive": "${archive}",
+                    "orderId": "${mainOrderId}"
+                },
+                "eventType": "url",
+                "url": "https://bendi.m.taobao.com/coupon/q/eticket_sec_pay_detail.htm?orderId=${orderId}&isArchive=${isArchive}"
+            },
+            "item_alihealthInsuranceService": {
+                "eventType": "url",
+                "url": "//fwfront.tmall.com/serviceDetail/buyerInsuranceMobileDetail.htm?serviceOrderId=${subOrderId}",
+                "params": {
+                    "subOrderId": "${subOrderIds[?]}"
+                }
+            }
+        }
+    },
+    "suborderop": {
+        "templates": [
+            {
+                "text": "追加评价",
+                "eventId": "tmallAppendRate",
+                "code": "tmallAppendRate"
+            }
+        ]
+    },
+    "orderop": {
+        "templates": [
+            {
+                "text": "付款",
+                "eventId": "doPay",
+                "code": "pay",
+                "highlight": "true"
+            },
+            {
+                "text": "借呗支付",
+                "eventId": "doPay",
+                "code": "stepJiebeiPay",
+                "highlight": "true"
+            },
+            {
+                "code": "unionPay",
+                "text": "付款",
+                "eventId": "queryTail",
+                "highlight": "true"
+            },
+            {
+                "text": "朋友代付",
+                "eventId": "doPay",
+                "code": "helpPay"
+            },
+            {
+                "text": "确认收货",
+                "eventId": "doPay",
+                "code": "confirmGood",
+                "highlight": "true"
+            },
+            {
+                "text": "付款",
+                "eventId": "doPay",
+                "code": "stepPay",
+                "highlight": "true"
+            },
+            {
+                "text": "付款",
+                "eventId": "queryTail",
+                "code": "stepPayV2",
+                "highlight": "true"
+            },
+            {
+                "text": "确认付尾款",
+                "eventId": "doPay",
+                "code": "confirmPay",
+                "highlight": "true"
+            },
+            {
+                "text": "取消",
+                "eventId": "closeWindow",
+                "code": "cancel"
+            },
+            {
+                "text": "付款",
+                "eventId": "doPay",
+                "code": "preAuth",
+                "highlight": "true"
+            },
+            {
+                "text": "去认证",
+                "eventId": "realNameAuth",
+                "code": "realNameAuth",
+                "highlight": "true"
+            },
+            {
+                "text": "确认",
+                "eventId": "doPay",
+                "code": "stepConfirm",
+                "highlight": "true"
+            },
+            {
+                "text": "确认",
+                "eventId": "doPay",
+                "code": "stepConfirm2",
+                "highlight": "true"
+            },
+            {
+                "text": "确认收货",
+                "eventId": "doPay",
+                "code": "stepConfirmGood",
+                "highlight": "true"
+            },
+            {
+                "text": "确认收货",
+                "eventId": "doPay",
+                "code": "stepConfirmGood2",
+                "highlight": "true"
+            },
+            {
+                "text": "提醒发货",
+                "eventId": "orderOperate",
+                "code": "notifyDelivery"
+            },
+            {
+                "text": "取消订单",
+                "eventId": "cancelOrder",
+                "code": "cancelOrder"
+            },
+            {
+                "text": "确认申请",
+                "eventId": "orderOperate",
+                "code": "confirmApply",
+                "highlight": "true"
+            },
+            {
+                "text": "取消申请",
+                "eventId": "cancelApply",
+                "code": "cancelApply"
+            },
+            {
+                "text": "延长收货",
+                "eventId": "delayTimeout",
+                "code": "delayTimeout"
+            },
+            {
+                "text": "查看物流",
+                "eventId": "viewLogistic",
+                "code": "viewLogistic"
+            },
+            {
+                "text": "删除订单",
+                "eventId": "delOrder",
+                "code": "delOrder"
+            },
+            {
+                "text": "电子凭证",
+                "eventId": "viewEticket",
+                "code": "viewEticket",
+                "highlight": "true"
+            },
+            {
+                "text": "电子凭证",
+                "eventId": "viewEticket2",
+                "code": "viewEticket2",
+                "highlight": "true"
+            },
+            {
+                "text": "先试后买",
+                "eventId": "orderOperate",
+                "code": "installmentBill"
+            },
+            {
+                "text": "分期购",
+                "eventId": "orderOperate",
+                "code": "installmentBill2"
+            },
+            {
+                "eventId": "orderOperate",
+                "code": "installment"
+            },
+            {
+                "text": "评价",
+                "eventId": "rateOrder",
+                "code": "rateOrder",
+                "highlight": "true"
+            },
+            {
+                "text": "追加评价",
+                "eventId": "appendRate",
+                "code": "appendRate"
+            },
+            {
+                "text": "评价",
+                "eventId": "tmallRateOrder",
+                "code": "tmallRateOrder",
+                "highlight": "true"
+            },
+            {
+                "text": "追加评价",
+                "eventId": "tmallAppendRate",
+                "code": "tmallAppendRate"
+            },
+            {
+                "text": "查看卡密",
+                "eventId": "viewCard",
+                "code": "viewCard"
+            },
+            {
+                "text": "提取卡密",
+                "eventId": "viewCard",
+                "code": "viewCard2"
+            },
+            {
+                "text": "联系卖家",
+                "eventId": "talkww",
+                "code": "talkww"
+            },
+            {
+                "text": "拨打电话",
+                "eventId": "talkphone",
+                "code": "talkphone"
+            },
+            {
+                "text": "门店自提",
+                "eventId": "usePugService",
+                "code": "usePugService"
+            }
+        ]
+    },
+    "batchop": {
+        "templates": [
+            {
+                "text": "合并付款",
+                "eventId": "doPay",
+                "code": "batchPay",
+                "highlight": "true"
+            }
+        ]
+    }
+}

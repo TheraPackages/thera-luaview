@@ -1,0 +1,19 @@
+{
+    "isDarkBg": false,
+    "background": "",
+    "headerPic": "",
+    "password": [
+                 "我要抽红包",
+                 "我要抢免单",
+                 "我要抢福利",
+                 "我要抢便宜"
+                 ],
+    "passwordPrefix": [
+                       "试试说：",
+                       "用力喊："
+                       ],
+    "entrance": {
+        "name": "",
+        "url": ""
+    }
+}

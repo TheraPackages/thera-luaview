@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  AlilangSDK-Strings for Simplified Chinese
+
+  Created by Sunus on 16/12/14.
+  Copyright (c) 2014 alibaba. All rights reserved.
+*/
+
+ALSDK_LOGIN_ERROR = "登录失败";
+ALSDK_LOGIN_USERNAME = "员工账号";
+ALSDK_LOGIN_PASSWORD = "密码";
+ALSDK_LOGIN_BUTTON_TITLE = "登录";
+ALSDK_LABEL_PRIVATE_DEVICE = "该设备属于用户: %@";
+ALSDK_LABEL_FORBID_PUBLIC = "不允许公共账号登陆, 请使用域账号";
+ALSDK_HUD_LOGGING = "正在登录";
+ALSDK_PUBLIC_FORBID_MESSAGE = "不支持公共账号直接登录, 请用个人账号登录后, 在身份选择页面选择想用的公共账号. (个人账号登录后如未出现身份选择页面或选择页面上不存在该账户请联系该账号的责任人 %@ 将您添加为该账号使用人)";
+ALSDK_HUD_2FA = "正在注册可信设备";
+ALSDK_2FA_ERROR_TITLE = "错误";
+ALSDK_2FA_INPUT_NOT_EMPTY = "输入不能为空";
+ALSDK_2FA_ERROR_MESSAGE = "发送短信验证码失败,请重试";
+ALSDK_2FA_SMS_PLACEHOLDER = "请输入短信验证码";
+ALSDK_2FA_VOICE_PLACEHOLDER = "请输入语音验证码";
+ALSDK_2FA_ID_PLACEHOLDER= "请输入证件号后四位";
+ALSDK_2FA_TITLE = "进行二次验证";
+ALSDK_2FA_VERIFY_BUTTON_TITLE = "下一步";
+ALSDK_2FA_RESEND_COUNTDOWN_TITLE = "%d秒后可\n使用语音服务";
+ALSDK_2FA_RESEND_BUTTON_TITLE = "使用语音服务";
+ALSDK_2FA_SENDING_BUTTON_TITLE = "发送中";
+ALSDK_2FA_SENDING_BUTTON_ERROR_TITLE = "发送错误";
+ALSDK_2FA_HELP_LABEL_SMSCODE = "请输入手机号 %@ 收到的短信验证码";
+ALSDK_2FA_HELP_LABEL_VOICECODE = "正在呼叫 %@，请注意接听手机";
+ALSDK_2FA_HELP_LABEL_MAINLAND = "请输入您的身份证件的最后4位数字（比如身份证或者护照)如：\n\n您的证件号码为 A123456，请输入3456。如果您的证件号码为ABCD1234X，那么请输入234X";
+ALSDK_2FA_TIP_USING_VOICE = "如未收到短信, 可选择使用阿里郎语音服务";
+ALSDK_2FA_HELP_LABEL_NON_MAINLAND = "请输入您的身份证件的最后四位数字";
+ALSDK_2FA_ERROR = "二次验证错误";
+ALSDK_SWITCH_ACCOUNT  = "请选择账号登录";
+ALSDK_SWITCH_ACCOUNT_UNAVAILABLE = "(已冻结)";
+ALSDK_SWITCH_ACCOUNT_TIP = "提示:\n\t若后续需要切换登陆账号, 请在应用中注销当前登陆的账号, 重新登陆并选择新账号即可.";
+ALSDK_PUBLIC_ACCOUNT = "公共账号";
+ALSDK_PERSONAL_ACCOUNT = "个人账号";
+
+ALSDK_2FA_SWITCH_KEYBOARD_NUM = "点击此处切换至数字键盘";
+ALSDK_2FA_SWITCH_KEYBOARD_EMAIL = "点击此处切换至英文键盘";
+ALSDK_CERT_FETCH_ERROR = "获取证书失败";
+ALSDK_CERT_VALIDATE_SUCCESS = "证书验证成功";
+ALSDK_CERT_VALIDATE_ERROR = "证书验证失败";
+ALSDK_OAUTH_LOGIN_SUCCESS = "登录成功";
+ALSDK_OAUTH_LOGIN_ERROR = "登录失败";
+ALSDK_AUTH_SUCCESS = "验证成功";
+NETWORK_UNREACHABLE = "网络连接失败, 请检查网络设置";
+
+GESTURE_PASSWORD = "手势验证";
+DRAW_GESTUREPASSWORD = "请输入手势";
+SET_GESTURE_PASSWORD = "请设置手势密码";
+SET_GESTURE_PASSWORD_AGAIN = "两次输入不匹配, 请重新设置手势密码";
+SET_CONFIRM_GESTURE_PASSWORD = "请确认手势密码";
+GESTURE_CREATED = "手势密码已创建";
+DRAW_GESTURE_PASSWORD = "请使用手势密码解锁";
+GESTURE_TOO_SHORT = "手势过于简单, 请重新设置手势密码";
+GESTURE_CORRECT = "手势密码验证成功";
+GESTURE_INCORRECT = "手势密码验证失败, 还有 %d 次机会";
+FORGET_GESTURE_LABEL = "忘记手势密码";
+
+HANDWRITING_PASSWORD = "笔迹验证";
+DRAW_HANDWRITING = "请输入笔迹";
+SET_HANDWRITING = "请设置笔迹";
+SET_HANDWRITING_AGAIN = "两次输入不一致, 请重新设置";
+SET_CONFIRM_HANDWRITING = "请确认笔迹";
+FORGET_HANDWRITING_LABEL = "忘记笔迹";
+HANDWRITING_INCORRECT = "笔迹验证失败, 还有 %d 次机会";
+HANDWRITING_TOO_SIMPLE = "笔迹过于简单, 请重新设置";
+HANDWRITING_TOO_COMPLEX = "笔迹过于复杂, 请重新设置";
+HANDWRITING_CORRECT = "笔迹验证成功";
+HANDWRITING_CREATED = "笔迹创建成功";
+
+TOUCH_ID_AUTH = "Touch ID 认证";
+OR_USING_TOUCH_ID = "或使用Touch ID验证";
+
+ENABLE_CELLULAR = "网络连接失败，请确保「设置 > 蜂窝移动网络」中阿里郎的联网权限已打开";
+ALERT_MITM_PROXY = "您可能正在遭受中间人攻击，或者设置了代理。请关闭 auth-alilang.alibaba-inc.com 的 SSL 代理";
+IOS_8_OR_LATER = "此功能仅在 iOS 8 及以上可用";
+ALILANG_2_OR_LATER = "请升级到阿里郎 2.0 来连接 VPN";
+ALILANG_NOT_INSTALLED = "请安装阿里郎 2.0 来连接 VPN";
+INSTALL_ALILANG = "安装";
+CANCEL = "取消";
