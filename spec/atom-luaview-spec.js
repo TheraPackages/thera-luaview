@@ -1,6 +1,6 @@
 'use babel';
 
-import AtomLuaview from '../lib/atom-luaview';
+import AtomLuaview from '../lib/thera-luaview';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -12,32 +12,32 @@ describe('AtomLuaview', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('atom-luaview');
+    activationPromise = atom.packages.activatePackage('thera-luaview');
   });
 
-  describe('when the atom-luaview:toggle event is triggered', () => {
+  describe('when the thera-luaview:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.atom-luaview')).not.toExist();
+      expect(workspaceElement.querySelector('.thera-luaview')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'atom-luaview:toggle');
+      atom.commands.dispatch(workspaceElement, 'thera-luaview:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.atom-luaview')).toExist();
+        expect(workspaceElement.querySelector('.thera-luaview')).toExist();
 
-        let atomLuaviewElement = workspaceElement.querySelector('.atom-luaview');
+        let atomLuaviewElement = workspaceElement.querySelector('.thera-luaview');
         expect(atomLuaviewElement).toExist();
 
         let atomLuaviewPanel = atom.workspace.panelForItem(atomLuaviewElement);
         expect(atomLuaviewPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'atom-luaview:toggle');
+        atom.commands.dispatch(workspaceElement, 'thera-luaview:toggle');
         expect(atomLuaviewPanel.isVisible()).toBe(false);
       });
     });
@@ -51,11 +51,11 @@ describe('AtomLuaview', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.atom-luaview')).not.toExist();
+      expect(workspaceElement.querySelector('.thera-luaview')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'atom-luaview:toggle');
+      atom.commands.dispatch(workspaceElement, 'thera-luaview:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -63,9 +63,9 @@ describe('AtomLuaview', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let atomLuaviewElement = workspaceElement.querySelector('.atom-luaview');
+        let atomLuaviewElement = workspaceElement.querySelector('.thera-luaview');
         expect(atomLuaviewElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'atom-luaview:toggle');
+        atom.commands.dispatch(workspaceElement, 'thera-luaview:toggle');
         expect(atomLuaviewElement).not.toBeVisible();
       });
     });

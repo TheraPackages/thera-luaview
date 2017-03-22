@@ -1,10 +1,10 @@
 {
-  "name": "atom-luaview",
-  "main": "./lib/atom-luaview",
+  "name": "thera-luaview",
+  "main": "./lib/thera-luaview",
   "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-luaview",
+  "repository": "https://github.com/atom/thera-luaview",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

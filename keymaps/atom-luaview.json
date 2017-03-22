@@ -1,13 +1,13 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "atom-luaview:toggle",
-    "f3": "atom-luaview:setBreakpoint",
-    "f4": "atom-luaview:removeBreakpoint",
+  "thera-workspace": {
+    "ctrl-alt-o": "thera-luaview:toggle",
+    "f3": "thera-luaview:setBreakpoint",
+    "f4": "thera-luaview:removeBreakpoint",
 
-    "f6": "atom-luaview:nextLine",
-    "f7": "atom-luaview:nextStep",
-    "f8": "atom-luaview:nextBreakPoint",
-    "f10": "atom-luaview:closeDebugServer",
-    "f12": "atom-luaview:setupDebugServer"
+    "f6": "thera-luaview:nextLine",
+    "f7": "thera-luaview:nextStep",
+    "f8": "thera-luaview:nextBreakPoint",
+    "f10": "thera-luaview:closeDebugServer",
+    "f12": "thera-luaview:setupDebugServer"
   }
 }

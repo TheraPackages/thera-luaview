@@ -1,21 +1,21 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "thera-text-editor": [
       {
         "label": "下一行",
-        "command": "atom-luaview:nextLine"
+        "command": "thera-luaview:nextLine"
       },
       {
         "label": "下一步",
-        "command": "atom-luaview:nextStep"
+        "command": "thera-luaview:nextStep"
       },
       {
         "label": "下一断点",
-        "command": "atom-luaview:nextBreakPoint"
+        "command": "thera-luaview:nextBreakPoint"
       },
       {
         "label": "启动调试服务",
-        "command": "atom-luaview:setupDebugServer"
+        "command": "thera-luaview:setupDebugServer"
       }
     ]
   },
@@ -24,23 +24,23 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-luaview",
+          "label": "thera-luaview",
           "submenu": [
             {
               "label": "下一行",
-              "command": "atom-luaview:nextLine"
+              "command": "thera-luaview:nextLine"
             },
             {
               "label": "下一步",
-              "command": "atom-luaview:nextStep"
+              "command": "thera-luaview:nextStep"
             },
             {
               "label": "下一断点",
-              "command": "atom-luaview:nextBreakPoint"
+              "command": "thera-luaview:nextBreakPoint"
             },
             {
               "label": "启动调试服务",
-              "command": "atom-luaview:setupDebugServer"
+              "command": "thera-luaview:setupDebugServer"
             }
           ]
         }

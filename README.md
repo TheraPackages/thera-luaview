@@ -1,4 +1,4 @@
-# atom-luaview package
+# thera-luaview package
 
 A short description of your package.
 
