@@ -10,15 +10,15 @@
 		</data>
 		<key>ALSDKExtraAuthViewController.nib</key>
 		<data>
-		OObq9t96MIP9I06BHExLZq9iPr4=
+		nBWZn0snZ6od+VQtvbFnGfFmfv8=
 		</data>
 		<key>ALSDKLoginViewController.nib</key>
 		<data>
-		kI2z3NaHnPjsMyh/CWp3TW7G4mg=
+		1Ct2owocJH7wPt8z4bMmdPW79W8=
 		</data>
 		<key>ALSDKTwoFactorAuthViewController.nib</key>
 		<data>
-		MLfQxqeCinfMAjoW77DeYoNfSMs=
+		1iVH2O88YgSksN7149HvhroD5O0=
 		</data>
 		<key>ALSDK_account-activation@2x.png</key>
 		<data>
@@ -506,7 +506,7 @@
 		</data>
 		<key>AddressTableViewCell.nib</key>
 		<data>
-		XFGfKw17kZh8JRNKf2Koj+2Oy3Y=
+		TkBX5+kpirYfq7SCEvaYop5Cl6U=
 		</data>
 		<key>AliDetailTemplate.bundle/AliDetailActionTemplate.json</key>
 		<data>
@@ -1700,7 +1700,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		xY8aQsSi56DMo++dmSGkTHxD6PA=
+		L+YcsxUVRK3nuLxNTqiELP1ZWbI=
 		</data>
 		<key>Base.lproj/ALDBLHTTPClient.strings</key>
 		<data>
@@ -1858,6 +1858,10 @@
 		<data>
 		/wfVo7K6TO8tqgY57zhF/n23cuw=
 		</data>
+		<key>JHS3DTouchShortcutDefault.plist</key>
+		<data>
+		NjiFOMcv+mnTNRrylgXMju2xT3E=
+		</data>
 		<key>JHSBuyKitThemeMap.plist</key>
 		<data>
 		mK99gDHDPZ7Rrsb5P3FF5e6L3AU=
@@ -1908,23 +1912,23 @@
 		</data>
 		<key>JHSKit.bundle/JHSStandardItemListTableViewCell.nib</key>
 		<data>
-		IXqOiHEJWuu0du8DfuqAHdfJpZs=
+		OlUTyGT/g58+OyBdKeBkBaTVZ2c=
 		</data>
 		<key>JHSKit.bundle/LoadingMoreTableViewCell-ItemDetailView.nib</key>
 		<data>
-		tNxXxu0EOBcVU6jSQKPBX9e211M=
+		9VAuSlulA6cP6leomSm14LeaS8A=
 		</data>
 		<key>JHSKit.bundle/LoadingMoreTableViewCell-ItemView.nib</key>
 		<data>
-		OfLUZfLZHd1D4emDmc878bnmEvg=
+		OgrNw/PsLXFZZ4WcYsStr5x1ZzE=
 		</data>
 		<key>JHSKit.bundle/ProgressHUDView.nib</key>
 		<data>
-		99HOxKI/mDeHt3zY1X7sD+RAxOA=
+		j3SJI9zkKKkntyfl9wTH9oRntbo=
 		</data>
 		<key>JHSKit.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		xF0SQ9DTeC653CtDjLbyqWDpm5s=
+		HWP5zpOKLl/UBeppm67NmT3EjjY=
 		</data>
 		<key>JHSKit.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -1932,11 +1936,11 @@
 		</data>
 		<key>JHSKit.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		57EjPTtNrFhHsvWByfBDKpsTZkQ=
+		jqPd9sKfS4iGhj73jsMKgZIQsNg=
 		</data>
 		<key>JHSKit.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		U1wIKLRZdF5kdUHAvHera9WnRC4=
+		aHfhDCryP4D7YtgO2EtiyFyDZaE=
 		</data>
 		<key>JHSKit.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -1984,11 +1988,11 @@
 		</data>
 		<key>JHSKit.bundle/selectionBackgroundView.nib</key>
 		<data>
-		W+nlxB6s3V9fz7HeNSV/Pg2D6Nc=
+		AchBRmlA5d6yVkaJq+UH+TBMX3I=
 		</data>
 		<key>JHSKit.bundle/today.zip</key>
 		<data>
-		hvVhRvz7mpwHTfGcXhV6fUyV4G0=
+		GVPl7nLzp1YpzFgKs8lzk662FZc=
 		</data>
 		<key>JHSKit.bundle/ut-ctrl-config-ios.csv</key>
 		<data>
@@ -2016,7 +2020,7 @@
 		</data>
 		<key>JHSStandardItemListTableViewCell.nib</key>
 		<data>
-		sDYVe4e3gtBtlDwJa8OD3reA4Rc=
+		C8ZkqjQqq4O47AEikQ+QBbm42UE=
 		</data>
 		<key>JMWeb.bundle/web_resource_pref.json</key>
 		<data>
@@ -2024,15 +2028,15 @@
 		</data>
 		<key>JUEggFuncListView.nib</key>
 		<data>
-		udR0/VyvegRIII1qqKcvQUT3Ajc=
+		myW+goWXe+RPnAxDUm1xdD23N2k=
 		</data>
 		<key>JUEggFuncPartView.nib</key>
 		<data>
-		nkpW2cx2XT0MQjWy/RcbbhC7nbE=
+		soEXoBCIwjB6H9MvDcLjh6080Ok=
 		</data>
 		<key>JUEggPerfMonView.nib</key>
 		<data>
-		KnezJJRhWI1vNy65MuOTI8x91CM=
+		LTBPVLt8e2YqIgBViixCCoUZQSQ=
 		</data>
 		<key>JUILib.bundle/Info.plist</key>
 		<data>
@@ -2388,11 +2392,11 @@
 		</data>
 		<key>LoadingMoreTableViewCell-ItemDetailView.nib</key>
 		<data>
-		6Hq3ilsUDfhUT/u7GNPfNxvD83I=
+		EWAP/+bXP3A+i2TqrdGEE+wkInI=
 		</data>
 		<key>LoadingMoreTableViewCell-ItemView.nib</key>
 		<data>
-		64PQ1Tacv6L1xFIwxgo6+EKglAw=
+		nBopuv7bYtnS5hVVIJkOYXr1DN4=
 		</data>
 		<key>MessageKit-Info.plist</key>
 		<data>
@@ -2412,11 +2416,11 @@
 		</data>
 		<key>ProfileLoginCell.nib</key>
 		<data>
-		FgdwQx+tKFhirpeTQGkHGUreU40=
+		2b3EaKvU4wBd8c34dD7MP7+7tWQ=
 		</data>
 		<key>ProfileUserHeader.nib</key>
 		<data>
-		hUu+cDOs7XIr6JNktqgCbMZ0fjI=
+		H8xLIGaGbgV39yJRrLcuTtaXKrU=
 		</data>
 		<key>RegionCacheProperty.plist</key>
 		<data>
@@ -2504,7 +2508,7 @@
 		</data>
 		<key>TBCatchCatsViewController.nib</key>
 		<data>
-		WGd0cdU/In94MSZnTs/QG0sGsGI=
+		+oztwMvgxtdIUUzvky2WUdylEDs=
 		</data>
 		<key>TBDetailSDK.bundle/TBDetailSDKServices.msoap.plist</key>
 		<data>
@@ -2708,7 +2712,7 @@
 		</data>
 		<key>TBNewAddressViewController.nib</key>
 		<data>
-		2KlReRGhBtEhGPa5KJfSOKVpHTc=
+		5Yjs11IglmOLjmR7w8jDUgDDWHY=
 		</data>
 		<key>TBOrderKitMapTemplate.plist</key>
 		<data>
@@ -3167,7 +3171,7 @@
 		</data>
 		<key>selectionBackgroundView.nib</key>
 		<data>
-		iJqcZNxH1/aLWtTKVjfT6oihF9M=
+		YKSIGq7A62rAfOp5YbFWONqYHoI=
 		</data>
 		<key>setting_section_info.plist</key>
 		<data>
@@ -3410,33 +3414,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OObq9t96MIP9I06BHExLZq9iPr4=
+			nBWZn0snZ6od+VQtvbFnGfFmfv8=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtPNT5gv5KFHi/a5isKVjiB+WBxzlVT89kwFyNgqm8o=
+			JJC2bAW5XZZYj8wTXQpnOKlR8N3xuHV29iOsxgE3FVo=
 			</data>
 		</dict>
 		<key>ALSDKLoginViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kI2z3NaHnPjsMyh/CWp3TW7G4mg=
+			1Ct2owocJH7wPt8z4bMmdPW79W8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nezx7gkLATNkcZNm4cdFR2WKjGQ61ARjn4mqwgcGBxo=
+			Re+xOGJyaGoMeqPW5rGf2H3BUHyMQznyImuOzntCvwo=
 			</data>
 		</dict>
 		<key>ALSDKTwoFactorAuthViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MLfQxqeCinfMAjoW77DeYoNfSMs=
+			1iVH2O88YgSksN7149HvhroD5O0=
 			</data>
 			<key>hash2</key>
 			<data>
-			gcOzm5JyRrNjJQwqfQt92cipJK3yKzErN6eNBjqCBtI=
+			jzqmlqpSxXWLL//pxN0ojxRO9qeHVrJ/W5NJ6f1eWyY=
 			</data>
 		</dict>
 		<key>ALSDK_account-activation@2x.png</key>
@@ -4774,11 +4778,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XFGfKw17kZh8JRNKf2Koj+2Oy3Y=
+			TkBX5+kpirYfq7SCEvaYop5Cl6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			DlzCPeG6V2TTx4kGyVx4K+TKwIR14l/wR1ffIBrEbmQ=
+			yI5eo10LGa9dXukCyCbAb5qvwk4yMjn/dMKQUYwjsew=
 			</data>
 		</dict>
 		<key>AliDetailTemplate.bundle/AliDetailActionTemplate.json</key>
@@ -8034,11 +8038,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xY8aQsSi56DMo++dmSGkTHxD6PA=
+			L+YcsxUVRK3nuLxNTqiELP1ZWbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			dLZOeGy400aO3ECeFysHW2uLBY4zwviJT+IqRgsCVL8=
+			YZtdTLs3H54OKOCK/ihCoc3oCE2aTaokGpBMingX7mU=
 			</data>
 		</dict>
 		<key>Base.lproj/ALDBLHTTPClient.strings</key>
@@ -8459,6 +8463,17 @@
 			UK4fdgc84U4VsFvRGMUdwTVWJPicUfwfKN3Hdxyr76o=
 			</data>
 		</dict>
+		<key>JHS3DTouchShortcutDefault.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NjiFOMcv+mnTNRrylgXMju2xT3E=
+			</data>
+			<key>hash2</key>
+			<data>
+			D/sFbDbanxGa7uUOxWrbz3D7LUUynt/4BFwNY7EETjU=
+			</data>
+		</dict>
 		<key>JHSBuyKitThemeMap.plist</key>
 		<dict>
 			<key>hash</key>
@@ -8595,55 +8610,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IXqOiHEJWuu0du8DfuqAHdfJpZs=
+			OlUTyGT/g58+OyBdKeBkBaTVZ2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			bz9D1m8D7k4zX32cBUSUJtZWyoaro/1afST8lK9UtBw=
+			7OD9gTVITSF7XbNYDQSeD7fjecm35ID1m1J5M9sboKk=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/LoadingMoreTableViewCell-ItemDetailView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tNxXxu0EOBcVU6jSQKPBX9e211M=
+			9VAuSlulA6cP6leomSm14LeaS8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			LZiJGX2Astm7+HiQD/bCkUAsXuiBSEkAML+1pH8pQcA=
+			59zr+Sw/vICQesgdE6CnnN2P5oi4Ec78+G8VCHkLuuU=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/LoadingMoreTableViewCell-ItemView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OfLUZfLZHd1D4emDmc878bnmEvg=
+			OgrNw/PsLXFZZ4WcYsStr5x1ZzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			2ohD3WbW2BX3hHk3uIrGAqWaWPPuJR28gi5j4TGVSio=
+			bsfu9iSFHUkb4/jQqEjEIpHqKNhXqCZOTW+UTrbnyU4=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/ProgressHUDView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			99HOxKI/mDeHt3zY1X7sD+RAxOA=
+			j3SJI9zkKKkntyfl9wTH9oRntbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			6EMDvnbRq1HWmJYGHoTm2taXPB299nBvTqfVStCx3Uk=
+			3y+ddy6rAbFHFxTtoQGAWG7mOrAYtW9DlW/tC7pv47s=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xF0SQ9DTeC653CtDjLbyqWDpm5s=
+			HWP5zpOKLl/UBeppm67NmT3EjjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			1idHlOtG/m+pKxgXUs3Wl07d98YWfL/ba1FGtmaGf2E=
+			ATTTfJ6JWRBRm8z5KbdsHwryM55RWEcUhBQjKCdKNNo=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/_CodeSignature/CodeRequirements</key>
@@ -8661,22 +8676,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			57EjPTtNrFhHsvWByfBDKpsTZkQ=
+			jqPd9sKfS4iGhj73jsMKgZIQsNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vZAx7W4CWM1sRcZafuoqxNMH+W9D6JOMLHehUtzyHko=
+			iV6tkZNQaBzXYOv5BTizcHaVhZVaVYF7S/rg7rpaDU4=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U1wIKLRZdF5kdUHAvHera9WnRC4=
+			aHfhDCryP4D7YtgO2EtiyFyDZaE=
 			</data>
 			<key>hash2</key>
 			<data>
-			sAVf8CZYR7Cw796UnbZtxlQ5sxVOnQp3Nems1T7PRCc=
+			/UhvPNcdXIuxoLxENx98Yosudoi1GNwkwzrpH/Izgx8=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/_CodeSignature/CodeSignature</key>
@@ -8804,22 +8819,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W+nlxB6s3V9fz7HeNSV/Pg2D6Nc=
+			AchBRmlA5d6yVkaJq+UH+TBMX3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			4AZQU7QDBtKzgzhOQwNtq03D3gWarU7fPrUGuuJdMFE=
+			qwC/PfZryi0jNoIUt8GWubHH+XahxSNeo7Jlc+Lk2cA=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/today.zip</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hvVhRvz7mpwHTfGcXhV6fUyV4G0=
+			GVPl7nLzp1YpzFgKs8lzk662FZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			oH/LX/0jyD+2vCedRTlOs/bRvgFSIQVpFJCSOjn4sfs=
+			AfXqJr59vQVW1NhBIoQTqqGInLLyygK24D3Sw0citYE=
 			</data>
 		</dict>
 		<key>JHSKit.bundle/ut-ctrl-config-ios.csv</key>
@@ -8892,11 +8907,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sDYVe4e3gtBtlDwJa8OD3reA4Rc=
+			C8ZkqjQqq4O47AEikQ+QBbm42UE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SaHvK+R4iZqY09LmdDTO/9/F+8d4lwrzfT5IL4WtUVg=
+			AG7bMxlyZSCMOJh7gbtJ7PtZYyN94OtJywAmwzCSaBs=
 			</data>
 		</dict>
 		<key>JMWeb.bundle/web_resource_pref.json</key>
@@ -8914,33 +8929,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			udR0/VyvegRIII1qqKcvQUT3Ajc=
+			myW+goWXe+RPnAxDUm1xdD23N2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			e6BdkJ49Uu1oCPXwdayV6PhfEMoj+w5QEaNfdllphTc=
+			+cesKsXJvK6qMJNzUJ/kAb9cp+HQezAxyxOjJr1475A=
 			</data>
 		</dict>
 		<key>JUEggFuncPartView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nkpW2cx2XT0MQjWy/RcbbhC7nbE=
+			soEXoBCIwjB6H9MvDcLjh6080Ok=
 			</data>
 			<key>hash2</key>
 			<data>
-			qcyOn1AA5jeC4MKBms6yiQO3K67l2hTPoz9efDUWnGA=
+			vdds+5V7Xpl+llzHuUp2jLAw0GtDTEpzlbbnKt6vwEQ=
 			</data>
 		</dict>
 		<key>JUEggPerfMonView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KnezJJRhWI1vNy65MuOTI8x91CM=
+			LTBPVLt8e2YqIgBViixCCoUZQSQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			RqtWr9zj/e4fvyoJBsZjCJY1bdxFOp59hqT45Bp0JwE=
+			P27KnzkOFY3xSASt59Tye7tBSl5n2nYfd0BLNb1lwpA=
 			</data>
 		</dict>
 		<key>JUILib.bundle/Info.plist</key>
@@ -9915,22 +9930,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Hq3ilsUDfhUT/u7GNPfNxvD83I=
+			EWAP/+bXP3A+i2TqrdGEE+wkInI=
 			</data>
 			<key>hash2</key>
 			<data>
-			lKOfa12LR0WrTX8VZmXfMynY4dnNaG3SwwGcXGvmxSo=
+			XZu27prkYRbiyvW3b8PofFmCl2Jx9tUPlBXjn5QhzDE=
 			</data>
 		</dict>
 		<key>LoadingMoreTableViewCell-ItemView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			64PQ1Tacv6L1xFIwxgo6+EKglAw=
+			nBopuv7bYtnS5hVVIJkOYXr1DN4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LuGuqre1oaTqAKVFAFM8DmVjuRxpGkTWUSJK4Q9UXb8=
+			fOtCGz2QK4PxKB0Ufzabekl07pEkia+ZxuPO4IlbrF8=
 			</data>
 		</dict>
 		<key>MessageKit-Info.plist</key>
@@ -9970,22 +9985,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FgdwQx+tKFhirpeTQGkHGUreU40=
+			2b3EaKvU4wBd8c34dD7MP7+7tWQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JJm/rerb7kRDbfiyVBFdAPXWz85iXKrCA8ymQhg53k8=
+			vF7B+Vh9lTdAX/bHKpGbl55gJie3RWuRPzz3p0PWrmU=
 			</data>
 		</dict>
 		<key>ProfileUserHeader.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hUu+cDOs7XIr6JNktqgCbMZ0fjI=
+			H8xLIGaGbgV39yJRrLcuTtaXKrU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0NJhGDo/GW/Lc+/tBcQC7mQ4Jy76ncTHZE+g6rRY40E=
+			uaCAnmJLuCZBpvo/z1Pq4uLf4aje9X9xo0/i5LhO+hQ=
 			</data>
 		</dict>
 		<key>RegionCacheProperty.plist</key>
@@ -10223,11 +10238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WGd0cdU/In94MSZnTs/QG0sGsGI=
+			+oztwMvgxtdIUUzvky2WUdylEDs=
 			</data>
 			<key>hash2</key>
 			<data>
-			PjphLfGCjz87ikZ1HaJHiddvsHrxo8YhG4WT1AoDMqQ=
+			VJbNQ/90TcnCkMLdySP727s6HAH6g50r0dhIttoVBmQ=
 			</data>
 		</dict>
 		<key>TBDetailSDK.bundle/TBDetailSDKServices.msoap.plist</key>
@@ -10784,11 +10799,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2KlReRGhBtEhGPa5KJfSOKVpHTc=
+			5Yjs11IglmOLjmR7w8jDUgDDWHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gd1QY+vmm1m4rDBOn6SgNRCYGLximY+jdJpR7wrr1XY=
+			4nSiAUv/eyqz0MHknsZ66YVJjploI4yflUu6pXcUiQs=
 			</data>
 		</dict>
 		<key>TBOrderKitMapTemplate.plist</key>
@@ -12011,11 +12026,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iJqcZNxH1/aLWtTKVjfT6oihF9M=
+			YKSIGq7A62rAfOp5YbFWONqYHoI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FQ9+UTqEiH3///sV6WO1xfnFWpN/cIr9KmokNY1kUJw=
+			69CueUxHjtTv7y6nh2uy0OWX4xldCkXB8YsbRxC7PgU=
 			</data>
 		</dict>
 		<key>setting_section_info.plist</key>
