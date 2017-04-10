@@ -1,7 +1,7 @@
 {
   "name": "thera-luaview",
   "main": "./lib/thera-luaview",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A short description of your package",
   "attachResource": "luaview.app",
   "keywords": [],
