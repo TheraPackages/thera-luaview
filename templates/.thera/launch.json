@@ -3,7 +3,7 @@
   "main": "${workspaceRoot}/main.lua",
   "launch": {
     "appid": "com.taobao.juhuasuan.luaview",
-    "path": "${attachPackage}/thera-luaview/luaview.app"
+    "path": "${mainNodeModulesPath}/thera-luaview/luaview.app"
   },
   "type": "luaview"
 }
